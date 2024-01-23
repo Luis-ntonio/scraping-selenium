@@ -1,0 +1,2505 @@
+{
+    "Xiaomi Redmi Note 13 Pro Plus 5G": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (2.8 GHz, Dual Core + 2 GHz, Hexa Core)",
+                        "MediaTek Dimensity 7200 Ultra",
+                        "8 GB RAM"
+                    ],
+                    "rate": "79"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.67 inches (16.94 cm)",
+                        "446 PPI, AMOLED",
+                        "120 Hz Refresh Rate"
+                    ],
+                    "rate": "80"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "200 MP + 8 MP + 2 MP Triple Primary Cameras",
+                        "Dual-color LED Flash",
+                        "16 MP Front Camera"
+                    ],
+                    "rate": "86"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "5000 mAh",
+                        "Hyper Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "71"
+                }
+            ]
+        },
+        "pro_rate": "8.0/ 10",
+        "user_rate": null,
+        "pros": [
+            "Trendy design",
+            "Crisp display",
+            "Fast charging",
+            "200MP camera"
+        ],
+        "cons": [
+            "Loads of pre-installed apps",
+            "Inconsistent lowlight photography"
+        ],
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "8 GB",
+                    "Processor": "MediaTek Dimensity 7200 Ultra",
+                    "Rear Camera": "200 MP + 8 MP + 2 MP",
+                    "Front Camera": "16 MP",
+                    "Battery": "5000 mAh",
+                    "Display": "6.67 inches (16.94 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "January 10, 2024 (Official)",
+                    "Operating System": "Android v13",
+                    "Custom UI": "MIUI"
+                }
+            },
+            "Performance": {
+                "rate": "79",
+                "Description": {
+                    "Chipset": "MediaTek Dimensity 7200 Ultra",
+                    "CPU": "Octa core (2.8 GHz, Dual core, Cortex A715 + 2 GHz, Hexa Core, Cortex A510)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "4 nm",
+                    "Graphics": "Mali-G610 MC4",
+                    "RAM": {
+                        "Description": "8 GB",
+                        "rate": "98"
+                    },
+                    "RAM Type": "LPDDR5"
+                }
+            },
+            "Display": {
+                "rate": "80",
+                "Description": {
+                    "Display Type": "AMOLED",
+                    "Screen Size": "6.67 inches (16.94 cm)",
+                    "Resolution": "1220 x 2712 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "446 ppi",
+                        "rate": "99"
+                    },
+                    "Screen to Body Ratio (calculated)": "89.69 %",
+                    "Screen Protection": "Corning Gorilla Glass, Glass Victus",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "HDR 10 / HDR+ support": "Yes, HDR 10+",
+                    "Refresh Rate": "120 Hz",
+                    "Screen to Body Ratio (claimed by the brand)": "93.35 %"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "161.4 mm Compare Size",
+                    "Width": "74.2 mm",
+                    "Thickness": {
+                        "Description": "8.9 mm",
+                        "rate": "64"
+                    },
+                    "Weight": {
+                        "Description": "204.5 grams",
+                        "rate": "31"
+                    },
+                    "Colours": "Fusion White, Fusion Purple, Fusion Black",
+                    "Waterproof": "Yes, Water resistant (up to 30 minutes in a depth of 1.5 meter), IP68",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "86",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Triple",
+                        "Resolution": [
+                            "200 MP f/1.65, Wide Angle, Primary Camera",
+                            "(1.4\" sensor size, 0.56µm pixel size)",
+                            "8 MP f/2.2, Ultra-Wide Angle Camera",
+                            "(4.0\" sensor size, 1.12µm pixel size)",
+                            "2 MP f/2.4, Macro Camera"
+                        ],
+                        "Sensor": "S5KHP3, ISO-CELL",
+                        "Autofocus": "Yes, Phase Detection autofocus",
+                        "OIS": "Yes",
+                        "Flash": "Yes, Dual-color LED Flash",
+                        "Image Resolution": "16300 x 12300 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "Burst mode",
+                            "Beautify",
+                            "Macro Mode"
+                        ],
+                        "Camera Features": [
+                            "10 x Digital Zoom",
+                            "Auto Flash",
+                            "Custom Watermark",
+                            "Face detection",
+                            "Touch to focus",
+                            "Voice Shutter"
+                        ],
+                        "Video Recording": [
+                            "3840x2160 @ 24 fps",
+                            "1920x1080 @ 30 fps"
+                        ],
+                        "Video Recording Features": [
+                            "Slo-motion",
+                            "Movie Frame",
+                            "Xiaomi Pro-cut",
+                            "Macro Video",
+                            "Short Video Mode"
+                        ]
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": "16 MP f/2.45, Wide Angle, Primary Camera",
+                        "Video Recording": [
+                            "1920x1080 @ 30 fps",
+                            "1280x720 @ 30 fps"
+                        ]
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "71",
+                "Description": {
+                    "Capacity": "5000 mAh",
+                    "Type": "Li-Polymer",
+                    "Removable": "No",
+                    "Standby time": "Up to 672 Hours(2G)",
+                    "Quick Charging": "Yes, Hyper, 120W: 100 % in 19 minutes",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "256 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "No",
+                    "Storage Type": "UFS 3.1",
+                    "USB OTG": "Yes"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N28",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N28",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SAR Value": "Head: 0.869 W/kg, Body: 0.597 W/kg",
+                    "Wi-Fi": "Yes, Wi-Fi 6E (802.11 a/b/g/n/ac/ax) 5GHz 6GHz",
+                    "Wi-Fi Features": "Wi-Fi Direct, Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.3",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "Yes",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "No",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "USB Type-C",
+                    "Audio Features": "Dolby Atmos"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "On-screen",
+                    "Fingerprint Sensor Type": "Optical",
+                    "Heart Rate Monitor": "Yes",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "Xiaomi Redmi Note 13 Pro": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (2.4 GHz, Quad Core + 1.95 GHz, Quad core)",
+                        "Snapdragon 7S Gen 2",
+                        "8 GB RAM"
+                    ],
+                    "rate": "82"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.67 inches (16.94 cm)",
+                        "446 PPI, AMOLED",
+                        "120 Hz Refresh Rate"
+                    ],
+                    "rate": "80"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "200 MP + 8 MP + 2 MP Triple Primary Cameras",
+                        "Dual-color LED Flash",
+                        "16 MP Front Camera"
+                    ],
+                    "rate": "86"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "5100 mAh",
+                        "Turbo Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "73"
+                }
+            ]
+        },
+        "pro_rate": null,
+        "user_rate": "5/5 (over 3 rates)",
+        "pros": null,
+        "cons": null,
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "8 GB",
+                    "Processor": "Qualcomm Snapdragon 7S Gen 2",
+                    "Rear Camera": "200 MP + 8 MP + 2 MP",
+                    "Front Camera": "16 MP",
+                    "Battery": "5100 mAh",
+                    "Display": "6.67 inches (16.94 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "January 10, 2024 (Official)",
+                    "Operating System": "Android v13",
+                    "Custom UI": "MIUI"
+                }
+            },
+            "Performance": {
+                "rate": "82",
+                "Description": {
+                    "Chipset": "Qualcomm Snapdragon 7S Gen 2",
+                    "CPU": "Octa core (2.4 GHz, Quad core, Cortex A78 + 1.95 GHz, Quad core, Cortex A55)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "4 nm",
+                    "Graphics": "Adreno 710",
+                    "RAM": {
+                        "Description": "8 GB",
+                        "rate": "98"
+                    },
+                    "RAM Type": "LPDDR4X"
+                }
+            },
+            "Display": {
+                "rate": "80",
+                "Description": {
+                    "Display Type": "AMOLED",
+                    "Screen Size": "6.67 inches (16.94 cm)",
+                    "Resolution": "1220 x 2712 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "446 ppi",
+                        "rate": "99"
+                    },
+                    "Screen to Body Ratio (calculated)": "89.78 %",
+                    "Screen Protection": "Corning Gorilla Glass, Glass Victus",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "Brightness": "500 nits",
+                    "Refresh Rate": "120 Hz",
+                    "Screen to Body Ratio (claimed by the brand)": "94 %"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "161.15 mm Compare Size",
+                    "Width": "74.24 mm",
+                    "Thickness": {
+                        "Description": "7.98 mm",
+                        "rate": "79"
+                    },
+                    "Weight": {
+                        "Description": "187 grams",
+                        "rate": "45"
+                    },
+                    "Colours": "Arctic White, Coral Purple, Midnight Black",
+                    "Waterproof": "Yes, Splash proof, IP54",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "86",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Triple",
+                        "Resolution": [
+                            "200 MP f/1.65, Wide Angle, Primary Camera",
+                            "(1.4\" sensor size, 0.56µm pixel size)",
+                            "8 MP f/2.2, Ultra-Wide Angle Camera",
+                            "(4.0\" sensor size, 1.12µm pixel size)",
+                            "2 MP f/2.4, Macro Camera",
+                            "(5.0\" sensor size)"
+                        ],
+                        "Sensor": "S5KHP3, ISO-CELL",
+                        "Autofocus": "Yes, Phase Detection autofocus",
+                        "OIS": "Yes",
+                        "Flash": "Yes, Dual-color LED Flash",
+                        "Image Resolution": "16300 x 12300 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "Burst mode",
+                            "Film Camera",
+                            "Beautify",
+                            "Macro Mode"
+                        ],
+                        "Camera Features": [
+                            "10 x Digital Zoom",
+                            "Auto Flash",
+                            "Face detection",
+                            "Filters",
+                            "Touch to focus",
+                            "Voice Shutter"
+                        ],
+                        "Video Recording": [
+                            "3840x2160 @ 30 fps",
+                            "1920x1080 @ 60 fps"
+                        ],
+                        "Video Recording Features": [
+                            "Slo-motion",
+                            "Xiaomi Pro-cut",
+                            "Macro Video",
+                            "Short Video Mode"
+                        ]
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": [
+                            "16 MP f/2.45, Wide Angle, Primary Camera",
+                            "(3\" sensor size, 1µm pixel size)"
+                        ],
+                        "Video Recording": [
+                            "1920x1080 @ 30 fps",
+                            "1280x720 @ 30 fps"
+                        ]
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "73",
+                "Description": {
+                    "Capacity": "5100 mAh",
+                    "Type": "Li-Polymer",
+                    "Removable": "No",
+                    "Quick Charging": "Yes, Turbo, 67W: 51 % in 15 minutes",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "128 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "No",
+                    "Storage Type": "UFS 2.2",
+                    "USB OTG": "Yes"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N28",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N28",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SAR Value": "Head: 0.856 W/kg, Body: 0.864 W/kg",
+                    "Wi-Fi": "Yes, Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+                    "Wi-Fi Features": "Wi-Fi Direct, Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.2",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "No",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "No",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "3.5 mm",
+                    "Audio Features": "Dolby Atmos"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "On-screen",
+                    "Fingerprint Sensor Type": "Optical",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "Xiaomi Redmi Note 13": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (2.4 GHz, Dual Core + 2 GHz, Hexa Core)",
+                        "MediaTek Dimensity 6080",
+                        "6 GB RAM"
+                    ],
+                    "rate": "69"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.67 inches (16.94 cm)",
+                        "395 PPI, AMOLED",
+                        "120 Hz Refresh Rate"
+                    ],
+                    "rate": "75"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "108 MP + 8 MP + 2 MP Triple Primary Cameras",
+                        "LED Flash",
+                        "16 MP Front Camera"
+                    ],
+                    "rate": "76"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "5000 mAh",
+                        "Fast Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "73"
+                }
+            ]
+        },
+        "pro_rate": null,
+        "user_rate": "3.1/5 (over 42 rates)",
+        "pros": null,
+        "cons": null,
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "6 GB",
+                    "Processor": "MediaTek Dimensity 6080 MT6833",
+                    "Rear Camera": "108 MP + 8 MP + 2 MP",
+                    "Front Camera": "16 MP",
+                    "Battery": "5000 mAh",
+                    "Display": "6.67 inches (16.94 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "January 10, 2024 (Official)",
+                    "Operating System": "Android v12",
+                    "Custom UI": "MIUI"
+                }
+            },
+            "Performance": {
+                "rate": "69",
+                "Description": {
+                    "Chipset": "MediaTek Dimensity 6080 MT6833",
+                    "CPU": "Octa core (2.4 GHz, Dual core, Cortex A76 + 2 GHz, Hexa Core, Cortex A55)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "6 nm",
+                    "Graphics": "Mali-G57 MC2",
+                    "RAM": {
+                        "Description": "6 GB",
+                        "rate": "98"
+                    },
+                    "RAM Type": "LPDDR4X"
+                }
+            },
+            "Display": {
+                "rate": "75",
+                "Description": {
+                    "Display Type": "AMOLED",
+                    "Screen Size": "6.67 inches (16.94 cm)",
+                    "Resolution": "1080 x 2400 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "395 ppi",
+                        "rate": "96"
+                    },
+                    "Screen to Body Ratio (calculated)": "88.95 %",
+                    "Screen Protection": "Corning Gorilla Glass v5",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "Refresh Rate": "120 Hz",
+                    "Screen to Body Ratio (claimed by the brand)": "93.3 %"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "161.11 mm Compare Size",
+                    "Width": "74.95 mm",
+                    "Thickness": {
+                        "Description": "7.6 mm",
+                        "rate": "85"
+                    },
+                    "Weight": {
+                        "Description": "173.5 grams",
+                        "rate": "54"
+                    },
+                    "Colours": "Arctic White, Stealth Black, Prism Gold",
+                    "Waterproof": "Yes, Splash proof, IP54",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "76",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Triple",
+                        "Resolution": [
+                            "108 MP f/1.75, Wide Angle, Primary Camera",
+                            "(1.67\" sensor size, 0.64µm pixel size)",
+                            "8 MP f/2.2, Ultra-Wide Angle Camera",
+                            "2 MP f/2.4, Macro Camera"
+                        ],
+                        "Autofocus": "Yes",
+                        "Flash": "Yes, LED Flash",
+                        "Image Resolution": "12000 x 9000 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "Macro Mode"
+                        ],
+                        "Camera Features": [
+                            "Digital Zoom",
+                            "Auto Flash",
+                            "Custom Watermark",
+                            "Face detection",
+                            "Filters",
+                            "Touch to focus",
+                            "Voice Shutter"
+                        ],
+                        "Video Recording": [
+                            "1920x1080 @ 30 fps",
+                            "1280x720 @ 30 fps"
+                        ],
+                        "Video Recording Features": [
+                            "Macro Video",
+                            "Short Video Mode"
+                        ]
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": "16 MP, Wide Angle, Primary Camera",
+                        "Video Recording": [
+                            "1920x1080 @ 30 fps",
+                            "1280x720 @ 30 fps"
+                        ]
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "73",
+                "Description": {
+                    "Capacity": "5000 mAh",
+                    "Type": "Li-Polymer",
+                    "Removable": "No",
+                    "TalkTime": "Up to 29 Hours(4G)",
+                    "Standby time": "Up to 636 Hours(2G)",
+                    "Quick Charging": "Yes, Fast, 33W",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "128 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "Yes, Up to 1 TB",
+                    "Storage Type": "UFS 2.2"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano (Hybrid)",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N28",
+                            "TDD N40 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 2100(band 34) / 1900(band 39)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 700(band 28) / 850(band 5)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N28",
+                            "TDD N40 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 2100(band 34) / 1900(band 39)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 700(band 28) / 850(band 5)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "Wi-Fi": "Yes, Wi-Fi 5 (802.11 b/g/n/ac) 5GHz",
+                    "Wi-Fi Features": "Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.3",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "No",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "3.5 mm",
+                    "Audio Features": "Dolby Atmos"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "Side",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "Samsung Galaxy S24 Ultra": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (3.39 GHz, Single Core + 3.1 GHz, Penta Core + 2.2 GHz, Dual core)",
+                        "Snapdragon 8 Gen 3",
+                        "12 GB RAM"
+                    ],
+                    "rate": "98"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.8 inches (17.27 cm)",
+                        "505 PPI, Dynamic AMOLED 2x",
+                        "120 Hz Refresh Rate"
+                    ],
+                    "rate": "89"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "200 + 12 + 10 + 50 MP Quad Primary Cameras",
+                        "LED Flash",
+                        "12 MP Front Camera"
+                    ],
+                    "rate": "95"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "5000 mAh",
+                        "Fast Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "71"
+                }
+            ]
+        },
+        "pro_rate": null,
+        "user_rate": null,
+        "pros": null,
+        "cons": null,
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "12 GB",
+                    "Processor": "Qualcomm Snapdragon 8 Gen 3",
+                    "Rear Camera": "200 MP + 12 MP + 10 MP + 50 MP",
+                    "Front Camera": "12 MP",
+                    "Battery": "5000 mAh",
+                    "Display": "6.8 inches (17.27 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "January 18, 2024 (Official)",
+                    "Operating System": "Android v14",
+                    "Custom UI": "Samsung One UI 6"
+                }
+            },
+            "Performance": {
+                "rate": "98",
+                "Description": {
+                    "Chipset": "Qualcomm Snapdragon 8 Gen 3",
+                    "CPU": "Octa core (3.39 GHz, Single core, Cortex X4 + 3.1 GHz, Penta Core, Cortex A720 + 2.2 GHz, Dual core, Cortex A520)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "4 nm",
+                    "Graphics": "Adreno 750",
+                    "RAM": {
+                        "Description": "12 GB",
+                        "rate": "99"
+                    },
+                    "RAM Type": "LPDDR5X"
+                }
+            },
+            "Display": {
+                "rate": "89",
+                "Description": {
+                    "Display Type": "Dynamic AMOLED 2x",
+                    "Screen Size": "6.8 inches (17.27 cm)",
+                    "Resolution": "1440 x 3120 pixels",
+                    "Aspect Ratio": "19.3:9",
+                    "Pixel Density": {
+                        "Description": "505 ppi",
+                        "rate": "99"
+                    },
+                    "Screen to Body Ratio (calculated)": "88.34 %",
+                    "Screen Protection": "Corning Gorilla Glass",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "HDR 10 / HDR+ support": "Yes, HDR 10+",
+                    "Refresh Rate": "120 Hz"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "162.3 mm Compare Size",
+                    "Width": "79 mm",
+                    "Thickness": {
+                        "Description": "8.6 mm",
+                        "rate": "69"
+                    },
+                    "Weight": {
+                        "Description": "232 grams",
+                        "rate": "19"
+                    },
+                    "Build Material": "Back: Gorilla Glass",
+                    "Colours": "Titanium Black, Titanium Gray, Titanium Violet, Titanium Yellow, Titanium Blue, Titanium Green",
+                    "Waterproof": "Yes, Water resistant (up to 30 minutes in a depth of 1.5 meter), IP68",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "95",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Quad",
+                        "Resolution": [
+                            "200 MP f/1.7, Wide Angle, Primary Camera",
+                            "(24 mm focal length, 1.31\" sensor size, 0.6µm pixel size)",
+                            "12 MP f/2.2, Ultra-Wide Angle Camera",
+                            "(13 mm focal length, 2.55\" sensor size, 1.4µm pixel size)",
+                            "10 MP f/2.4, Telephoto Camera",
+                            "(67 mm focal length, 3.52\" sensor size, 1.12µm pixel size)",
+                            "50 MP f/3.4",
+                            "(111 mm focal length)"
+                        ],
+                        "Sensor": "ISO-CELL",
+                        "Autofocus": "Yes, Phase Detection autofocus, Laser autofocus, Super Quad Pixel autofocus",
+                        "OIS": "Yes",
+                        "Flash": "Yes, LED Flash",
+                        "Image Resolution": "16000 x 12500 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "SuperMoon"
+                        ],
+                        "Camera Features": [
+                            "Digital Zoom",
+                            "Auto Flash",
+                            "Face detection",
+                            "Touch to focus"
+                        ],
+                        "Video Recording": [
+                            "7680x4320 @ 30 fps",
+                            "3840x2160 @ 60 fps",
+                            "1920x1080 @ 240 fps"
+                        ],
+                        "Video Recording Features": [
+                            "Slo-motion",
+                            "Ultra Steady Video",
+                            "Video HDR",
+                            "Bokeh portrait video",
+                            "Video Pro Mode",
+                            "Stereo recording"
+                        ]
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": [
+                            "12 MP f/2.2, Wide Angle, Primary Camera",
+                            "(26 mm focal length)"
+                        ],
+                        "Autofocus": "Yes, Dual Pixel autofocus",
+                        "Video Recording": [
+                            "3840x2160 @ 30 fps",
+                            "1920x1080 @ 30 fps"
+                        ]
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "71",
+                "Description": {
+                    "Capacity": "5000 mAh",
+                    "Type": "Li-ion",
+                    "Removable": "No",
+                    "Wireless Charging": "Yes",
+                    "Quick Charging": "Yes, Fast, 45W: 65 % in 30 minutes",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "256 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "No",
+                    "Storage Type": "UFS 4.0",
+                    "USB OTG": "Yes"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM",
+                    "SIM Size": "SIM1: Nano, SIM2: eSIM",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N2 / N3 / N5 / N7 / N8 / N12 / N20 / N25 / N26 / N28",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 1900(band 39)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 700(band 13) / 700(band 17) / 850(band 18) / 850(band 19) / 800(band 20) / 1900(band 25) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N2 / N3 / N5 / N7 / N8 / N12 / N20 / N25 / N26 / N28 / N66",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 1900(band 39)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 700(band 13) / 700(band 17) / 850(band 18) / 850(band 19) / 800(band 20) / 1900(band 25) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "Wi-Fi": "Yes, Wi-Fi 6E (802.11 a/b/g/n/ac/ax) 5GHz 6GHz, MIMO",
+                    "Wi-Fi Features": "Wi-Fi Direct, Mobile Hotspot",
+                    "Wi-Fi Calling": "Yes",
+                    "Bluetooth": "Yes, v5.3",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "Yes",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "No",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "USB Type-C"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "On-screen",
+                    "Fingerprint Sensor Type": "Ultrasonic",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Barometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "Motorola Edge 40 Neo": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (2.5 GHz, Dual Core + 2 GHz, Hexa Core)",
+                        "MediaTek Dimensity 7030",
+                        "8 GB RAM"
+                    ],
+                    "rate": "78"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.55 inches (16.64 cm)",
+                        "402 PPI, P-OLED",
+                        "144 Hz Refresh Rate"
+                    ],
+                    "rate": "76"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "50 MP + 13 MP Dual Primary Cameras",
+                        "LED Flash",
+                        "32 MP Front Camera"
+                    ],
+                    "rate": "89"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "5000 mAh",
+                        "Turbo Power Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "71"
+                }
+            ]
+        },
+        "pro_rate": "7.5/ 10",
+        "user_rate": "4.3/5 (over 22,353 rates)",
+        "pros": [
+            "Stylish design, IP68 rating",
+            "Impressive screen",
+            "Good battery life",
+            "Clean software"
+        ],
+        "cons": [
+            "Overheating & performance throttling",
+            "Captures images with boosted colours"
+        ],
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "8 GB",
+                    "Processor": "MediaTek Dimensity 7030",
+                    "Rear Camera": "50 MP + 13 MP",
+                    "Front Camera": "32 MP",
+                    "Battery": "5000 mAh",
+                    "Display": "6.55 inches (16.64 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "September 28, 2023 (Official)",
+                    "Operating System": "Android v13"
+                }
+            },
+            "Performance": {
+                "rate": "78",
+                "Description": {
+                    "Chipset": "MediaTek Dimensity 7030",
+                    "CPU": "Octa core (2.5 GHz, Dual core, Cortex A78 + 2 GHz, Hexa Core, Cortex A55)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "6 nm",
+                    "Graphics": "Mali-G610 MC3",
+                    "RAM": {
+                        "Description": "8 GB",
+                        "rate": "98"
+                    },
+                    "RAM Type": "LPDDR4X"
+                }
+            },
+            "Display": {
+                "rate": "76",
+                "Description": {
+                    "Display Type": "P-OLED",
+                    "Screen Size": "6.55 inches (16.64 cm)",
+                    "Resolution": "1080 x 2400 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "402 ppi",
+                        "rate": "97"
+                    },
+                    "Screen to Body Ratio (calculated)": "90.26 %",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "Brightness": "1300 nits",
+                    "HDR 10 / HDR+ support": "Yes, HDR 10+",
+                    "Refresh Rate": "144 Hz"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "159.6 mm Compare Size",
+                    "Width": "71.9 mm",
+                    "Thickness": {
+                        "Description": "7.7 mm",
+                        "rate": "83"
+                    },
+                    "Weight": {
+                        "Description": "170 grams",
+                        "rate": "57"
+                    },
+                    "Build Material": "Back: Plastic",
+                    "Colours": "Soothing Sea, Caneel Bay, Black Beauty, New Peach Fuzz",
+                    "Waterproof": "Yes, Water resistant (up to 30 minutes in a depth of 1.5 meter), IP68",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "89",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Dual",
+                        "Resolution": [
+                            "50 MP f/1.8, Wide Angle, Primary Camera",
+                            "(1.5\" sensor size, 1µm pixel size)",
+                            "13 MP f/2.2, Ultra-Wide Angle Camera",
+                            "(1.12µm pixel size)"
+                        ],
+                        "Autofocus": "Yes, Phase Detection autofocus",
+                        "OIS": "Yes",
+                        "Flash": "Yes, LED Flash",
+                        "Image Resolution": "8150 x 6150 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "Burst mode"
+                        ],
+                        "Camera Features": [
+                            "Digital Zoom",
+                            "Auto Flash",
+                            "Custom Watermark",
+                            "Face detection",
+                            "Filters",
+                            "Touch to focus"
+                        ],
+                        "Video Recording": [
+                            "3840x2160 @ 30 fps",
+                            "1920x1080 @ 30 fps"
+                        ],
+                        "Video Recording Features": [
+                            "Dual Video Recording",
+                            "Slo-motion",
+                            "Bokeh portrait video",
+                            "Audio Zoom"
+                        ]
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": [
+                            "32 MP f/2.4, Wide Angle, Primary Camera",
+                            "(0.7µm pixel size)"
+                        ],
+                        "Autofocus": "Yes",
+                        "Video Recording": "1920x1080 @ 30 fps"
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "71",
+                "Description": {
+                    "Capacity": "5000 mAh",
+                    "Type": "Li-Polymer",
+                    "Removable": "No",
+                    "Quick Charging": "Yes, Turbo Power, 68W: 50 % in 15 minutes",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "128 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "No",
+                    "USB OTG": "Yes",
+                    "Storage Type": "UFS 2.2"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM, Dual VoLTE",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N2 / N3 / N5 / N7 / N8 / N20 / N28",
+                            "TDD N38 / N40 / N41 / N66 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 1900(band 39) / 3500(band 42)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 700(band 13) / 700(band 17) / 850(band 18) / 850(band 19) / 800(band 20) / 1900(band 25) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N2 / N3 / N5 / N7 / N8 / N20 / N28",
+                            "TDD N38 / N40 / N41 / N66 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 1900(band 39) / 3500(band 42)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 700(band 13) / 700(band 17) / 850(band 18) / 850(band 19) / 800(band 20) / 1900(band 25) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SAR Value": "Head: 1.00 W/kg, Body: 1.23 W/kg",
+                    "Wi-Fi": "Yes, Wi-Fi 6E (802.11 a/b/g/n/ac/ax) 5GHz 6GHz",
+                    "Wi-Fi Features": "Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.3",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "Yes",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "No",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "USB Type-C",
+                    "Audio Features": "Dolby Atmos"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "On-screen",
+                    "Fingerprint Sensor Type": "Optical",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "vivo X100 Pro 5G": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (3.25 GHz, Single Core + 2.85 GHz, Tri core + 2 GHz, Quad core)",
+                        "MediaTek Dimensity 9300",
+                        "16 GB RAM"
+                    ],
+                    "rate": "99"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.78 inches (17.22 cm)",
+                        "453 PPI, AMOLED",
+                        "120 Hz Refresh Rate"
+                    ],
+                    "rate": "80"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "50 MP + 50 MP + 50 MP Triple Primary Cameras",
+                        "LED Flash",
+                        "32 MP Front Camera"
+                    ],
+                    "rate": "90"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "5400 mAh",
+                        "Flash Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "74"
+                }
+            ]
+        },
+        "pro_rate": "8.5/ 10",
+        "user_rate": null,
+        "pros": [
+            "Exceptional rear cameras",
+            "Stunning display",
+            "Good battery life",
+            "Fast and smooth performance"
+        ],
+        "cons": [
+            "Underwhelming selfie camera",
+            "Slippery to hold"
+        ],
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "16 GB",
+                    "Processor": "MediaTek Dimensity 9300",
+                    "Rear Camera": "50 MP + 50 MP + 50 MP",
+                    "Front Camera": "32 MP",
+                    "Battery": "5400 mAh",
+                    "Display": "6.78 inches (17.22 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "January 4, 2024 (Official)",
+                    "Operating System": "Android v14",
+                    "Custom UI": "Funtouch OS"
+                }
+            },
+            "Performance": {
+                "rate": "99",
+                "Description": {
+                    "Chipset": "MediaTek Dimensity 9300",
+                    "CPU": "Octa core (3.25 GHz, Single core, Cortex X4 + 2.85 GHz, Tri core, Cortex X4 + 2 GHz, Quad core, Cortex A720)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "4 nm",
+                    "Graphics": "Immortalis-G720 MC12",
+                    "RAM": {
+                        "Description": "16 GB",
+                        "rate": "99"
+                    },
+                    "RAM Type": "LPDDR5X"
+                }
+            },
+            "Display": {
+                "rate": "80",
+                "Description": {
+                    "Display Type": "AMOLED",
+                    "Screen Size": "6.78 inches (17.22 cm)",
+                    "Resolution": "1260 x 2800 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "453 ppi",
+                        "rate": "99"
+                    },
+                    "Screen to Body Ratio (calculated)": "89.87 %",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "Refresh Rate": "120 Hz",
+                    "Screen to Body Ratio (claimed by the brand)": "93 %"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "164.05 mm Compare Size",
+                    "Width": "75.28 mm",
+                    "Thickness": {
+                        "Description": "8.91 mm",
+                        "rate": "63"
+                    },
+                    "Weight": {
+                        "Description": "225 grams",
+                        "rate": "20"
+                    },
+                    "Build Material": "Back: Mineral Glass",
+                    "Colours": "Asteroid Black",
+                    "Waterproof": "Yes, Water resistant (up to 30 minutes in a depth of 1.5 meter), IP68",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "90",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Triple",
+                        "Resolution": [
+                            "50 MP f/1.75, Wide Angle, Primary Camera",
+                            "(23 mm focal length, 0.98\" sensor size)",
+                            "50 MP f/2.0, Ultra-Wide Angle Camera",
+                            "(15 mm focal length, 2.7\" sensor size)",
+                            "50 MP f/2.5, Telephoto Camera",
+                            "(100 mm focal length, 2\" sensor size, 0.7µm pixel size)"
+                        ],
+                        "Sensor": "IMX989, Exmor-RS CMOS Sensor",
+                        "Autofocus": "Yes",
+                        "OIS": "Yes",
+                        "Flash": "Yes, LED Flash",
+                        "Image Resolution": "8150 x 6150 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "SuperMoon"
+                        ],
+                        "Camera Features": [
+                            "Digital Zoom",
+                            "Auto Flash",
+                            "Face detection",
+                            "Touch to focus"
+                        ],
+                        "Video Recording": [
+                            "7680x4320 @ 30 fps",
+                            "3840x2160 @ 30 fps"
+                        ],
+                        "Video Recording Features": "Bokeh portrait video"
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": [
+                            "32 MP f/2.0, Wide Angle, Primary Camera",
+                            "(20 mm focal length)"
+                        ],
+                        "Camera Features": "Fixed Focus",
+                        "Video Recording": "1920x1080 @ 30 fps"
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "74",
+                "Description": {
+                    "Capacity": "5400 mAh",
+                    "Type": "Li-ion",
+                    "Removable": "No",
+                    "Wireless Charging": "Yes",
+                    "Quick Charging": "Yes, Flash, 100W: 50 % in 14 minutes",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "512 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "No",
+                    "USB OTG": "Yes",
+                    "Storage Type": "UFS 4.0"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N20 / N28",
+                            "TDD N38 / N40 / N41 / N66 / N75 / N77 / N78 / N79"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 2100(band 34) / 1900(band 39) / 3500(band 42)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 700(band 17) / 850(band 18) / 850(band 19) / 800(band 20) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N8 / N28",
+                            "TDD N38 / N40 / N41 / N66 / N75 / N77 / N78 / N79"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 2100(band 34) / 1900(band 39) / 3500(band 42)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 700(band 17) / 850(band 18) / 850(band 19) / 800(band 20) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SAR Value": "Head: 0.996 W/kg, Body: 0.833 W/kg",
+                    "Wi-Fi": "Yes, Wi-Fi 7 (802.11 a/b/g/n/ac/be/ax) 5GHz 6GHz, MIMO",
+                    "Wi-Fi Features": "Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.4",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "Yes",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "No",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "USB Type-C"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "On-screen",
+                    "Fingerprint Sensor Type": "Optical",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "Moto G54": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (2.2 GHz, Dual Core + 2 GHz, Hexa Core)",
+                        "MediaTek Dimensity 7020",
+                        "8 GB RAM"
+                    ],
+                    "rate": "80"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.5 inches (16.51 cm)",
+                        "405 PPI, IPS LCD",
+                        "120 Hz Refresh Rate"
+                    ],
+                    "rate": "65"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "50 MP + 8 MP Dual Primary Cameras",
+                        "LED Flash",
+                        "16 MP Front Camera"
+                    ],
+                    "rate": "89"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "6000 mAh",
+                        "Turbo Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "78"
+                }
+            ]
+        },
+        "pro_rate": "8.0/ 10",
+        "user_rate": "4.2/5 (over 28,534 rates)",
+        "pros": [
+            "Fine performance",
+            "Stereo speakers",
+            "Impressive battery life",
+            "Good cameras"
+        ],
+        "cons": [
+            "Charging speeds could have been better",
+            "Just one major software upgrade promised"
+        ],
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "8 GB",
+                    "Processor": "MediaTek Dimensity 7020",
+                    "Rear Camera": "50 MP + 8 MP",
+                    "Front Camera": "16 MP",
+                    "Battery": "6000 mAh",
+                    "Display": "6.5 inches (16.51 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "September 13, 2023 (Official)",
+                    "Operating System": "Android v13"
+                }
+            },
+            "Performance": {
+                "rate": "80",
+                "Description": {
+                    "Chipset": "MediaTek Dimensity 7020",
+                    "CPU": "Octa core (2.2 GHz, Dual core, Cortex A78 + 2 GHz, Hexa Core, Cortex A55)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "6 nm",
+                    "Graphics": "IMG BXM-8-256",
+                    "RAM": {
+                        "Description": "8 GB",
+                        "rate": "98"
+                    },
+                    "RAM Type": "LPDDR4X"
+                }
+            },
+            "Display": {
+                "rate": "65",
+                "Description": {
+                    "Display Type": "IPS LCD",
+                    "Screen Size": "6.5 inches (16.51 cm)",
+                    "Resolution": "1080 x 2400 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "405 ppi",
+                        "rate": "97"
+                    },
+                    "Screen to Body Ratio (calculated)": "85.58 %",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "Refresh Rate": "120 Hz",
+                    "Screen to Body Ratio (claimed by the brand)": "86 %"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "161.5 mm Compare Size",
+                    "Width": "73.8 mm",
+                    "Thickness": {
+                        "Description": "8.8 mm",
+                        "rate": "65"
+                    },
+                    "Weight": {
+                        "Description": "192 grams",
+                        "rate": "41"
+                    },
+                    "Build Material": "Back: Plastic",
+                    "Colours": "Black, Blue, Green, Midnight Blue, Mint Green, Pearl Blue",
+                    "Waterproof": "Yes, Splash proof, IP52",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "89",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Dual",
+                        "Resolution": [
+                            "50 MP f/1.8, Wide Angle, Primary Camera",
+                            "(1.22µm pixel size)",
+                            "8 MP f/2.2, Ultra-Wide Angle Camera",
+                            "(1.12µm pixel size)"
+                        ],
+                        "Autofocus": "Yes, Phase Detection autofocus",
+                        "OIS": "Yes",
+                        "Flash": "Yes, LED Flash",
+                        "Image Resolution": "8150 x 6150 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "Burst mode",
+                            "Macro Mode"
+                        ],
+                        "Camera Features": [
+                            "8 x Digital Zoom",
+                            "Auto Flash",
+                            "Custom Watermark",
+                            "Face detection",
+                            "Touch to focus"
+                        ],
+                        "Video Recording": "1920x1080 @ 30 fps",
+                        "Video Recording Features": "Dual Video Recording"
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": [
+                            "16 MP f/2.4, Wide Angle, Primary Camera",
+                            "(1µm pixel size)"
+                        ],
+                        "Video Recording": "1920x1080 @ 30 fps"
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "78",
+                "Description": {
+                    "Capacity": "6000 mAh",
+                    "Type": "Li-Polymer",
+                    "Removable": "No",
+                    "Quick Charging": "Yes, Turbo, 30W",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "128 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "Yes, Up to 1 TB",
+                    "User Available Storage": "Up to 111 GB",
+                    "Storage Type": "UFS 2.2",
+                    "USB OTG": "Yes"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM, Dual VoLTE",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano (Hybrid)",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N2 / N3 / N5 / N7 / N8 / N20 / N28",
+                            "TDD N38 / N40 / N41 / N66 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 3500(band 42)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 850(band 18) / 850(band 19) / 800(band 20) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N2 / N3 / N5 / N7 / N8 / N20 / N28",
+                            "TDD N38 / N40 / N41 / N66 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 3500(band 42)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 1700(band 4) / 850(band 5) / 850(band 18) / 850(band 19) / 800(band 20) / 850(band 26)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SAR Value": "Head: 1.07 W/kg, Body: 1.09 W/kg",
+                    "Wi-Fi": "Yes, Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz, MIMO",
+                    "Wi-Fi Features": "Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.3",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "No",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "Yes, Recording option",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "3.5 mm",
+                    "Audio Features": "Dolby Atmos"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "Side",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "iQOO 12 5G": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (3.3 GHz, Single Core + 3.2 GHz, Penta Core + 2.3 GHz, Dual core)",
+                        "Snapdragon 8 Gen 3",
+                        "12 GB RAM"
+                    ],
+                    "rate": "98"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.78 inches (17.22 cm)",
+                        "453 PPI, AMOLED",
+                        "144 Hz Refresh Rate"
+                    ],
+                    "rate": "80"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "50 MP + 50 MP + 64 MP Triple Primary Cameras",
+                        "Dual LED Flash",
+                        "16 MP Front Camera"
+                    ],
+                    "rate": "91"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "5000 mAh",
+                        "Flash Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "72"
+                }
+            ]
+        },
+        "pro_rate": "8.5/ 10",
+        "user_rate": "4.6/5 (over 522 rates)",
+        "pros": [
+            "Impressive build, IP64 rated",
+            "Gorgeous screen",
+            "Good cameras",
+            "Incredibly fast performance & charging speeds"
+        ],
+        "cons": [
+            "No wireless charging",
+            "Bloatware"
+        ],
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "12 GB",
+                    "Processor": "Qualcomm Snapdragon 8 Gen 3",
+                    "Rear Camera": "50 MP + 50 MP + 64 MP",
+                    "Front Camera": "16 MP",
+                    "Battery": "5000 mAh",
+                    "Display": "6.78 inches (17.22 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "December 13, 2023 (Official)",
+                    "Operating System": "Android v14",
+                    "Custom UI": "Funtouch OS"
+                }
+            },
+            "Performance": {
+                "rate": "98",
+                "Description": {
+                    "Chipset": "Qualcomm Snapdragon 8 Gen 3",
+                    "CPU": "Octa core (3.3 GHz, Single core, Cortex X4 + 3.2 GHz, Penta Core, Cortex A720 + 2.3 GHz, Dual core, Cortex A520)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "4 nm",
+                    "Graphics": "Adreno 750",
+                    "RAM": {
+                        "Description": "12 GB",
+                        "rate": "99"
+                    },
+                    "RAM Type": "LPDDR5X"
+                }
+            },
+            "Display": {
+                "rate": "80",
+                "Description": {
+                    "Display Type": "AMOLED",
+                    "Screen Size": "6.78 inches (17.22 cm)",
+                    "Resolution": "1260 x 2800 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "453 ppi",
+                        "rate": "99"
+                    },
+                    "Screen to Body Ratio (calculated)": "89.71 %",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "HDR 10 / HDR+ support": "Yes, HDR 10+",
+                    "Refresh Rate": "144 Hz",
+                    "Screen to Body Ratio (claimed by the brand)": "93.43 %"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "163.2 mm Compare Size",
+                    "Width": "75.8 mm",
+                    "Thickness": {
+                        "Description": "8.1 mm",
+                        "rate": "77"
+                    },
+                    "Weight": {
+                        "Description": "203.7 grams",
+                        "rate": "32"
+                    },
+                    "Build Material": "Back: Mineral Glass",
+                    "Colours": "Legend, Alpha",
+                    "Waterproof": "Yes, Splash proof, IP64",
+                    "Ruggedness": "Dust proof"
+                }
+            },
+            "Camera": {
+                "rate": "91",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Triple",
+                        "Resolution": [
+                            "50 MP f/1.68, Wide Angle, Primary Camera",
+                            "(23 mm focal length, 1.31\" sensor size, 1.2µm pixel size)",
+                            "50 MP f/2.0, Ultra-Wide Angle Camera",
+                            "(15 mm focal length)",
+                            "64 MP f/2.57, Periscope Camera",
+                            "(70 mm focal length, 2\" sensor size)"
+                        ],
+                        "Sensor": "OV50H",
+                        "Autofocus": "Yes",
+                        "OIS": "Yes",
+                        "Flash": "Yes, Dual LED Flash",
+                        "Image Resolution": "8150 x 6150 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "SuperMoon"
+                        ],
+                        "Camera Features": [
+                            "Digital Zoom",
+                            "Auto Flash",
+                            "Face detection",
+                            "Touch to focus"
+                        ],
+                        "Video Recording": [
+                            "7680x4320 @ 30 fps",
+                            "3840x2160 @ 30 fps",
+                            "1920x1080 @ 60 fps"
+                        ],
+                        "Video Recording Features": "Slo-motion"
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": "16 MP f/2.45, Wide Angle, Primary Camera",
+                        "Video Recording": "1920x1080 @ 30 fps"
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "72",
+                "Description": {
+                    "Capacity": "5000 mAh",
+                    "Type": "Li-Polymer",
+                    "Removable": "No",
+                    "Quick Charging": "Yes, Flash, 120W: 50 % in 10 minutes",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "256 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "No",
+                    "USB OTG": "Yes",
+                    "Storage Type": "UFS 4.0"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM, Dual VoLTE",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N7 / N8 / N28",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 850(band 5) / 800(band 20)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N7 / N8 / N28",
+                            "TDD N38 / N40 / N41 / N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1900(band 2) / 850(band 5) / 800(band 20)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SAR Value": "Head: 1.377 W/kg, Body: 1.276 W/kg",
+                    "Wi-Fi": "Yes, Wi-Fi 7 (802.11 a/b/g/n/ac/be/ax) 5GHz 6GHz",
+                    "Wi-Fi Features": "Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.4",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "Yes",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "No",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "USB Type-C"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "On-screen",
+                    "Fingerprint Sensor Type": "Optical",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    },
+    "vivo V29": {
+        "keys": {
+            "Performance": [
+                {
+                    "values": [
+                        "Octa core (2.4 GHz, Single Core + 2.4 GHz, Tri core + 1.8 GHz, Quad core)",
+                        "Snapdragon 778G",
+                        "8 GB RAM"
+                    ],
+                    "rate": "80"
+                }
+            ],
+            "Display": [
+                {
+                    "values": [
+                        "6.78 inches (17.22 cm)",
+                        "453 PPI, AMOLED",
+                        "120 Hz Refresh Rate"
+                    ],
+                    "rate": "80"
+                }
+            ],
+            "Camera": [
+                {
+                    "values": [
+                        "50 MP + 8 MP + 2 MP Triple Primary Cameras",
+                        "LED Flash + Aura Light",
+                        "50 MP Front Camera"
+                    ],
+                    "rate": "90"
+                }
+            ],
+            "Battery": [
+                {
+                    "values": [
+                        "4600 mAh",
+                        "Flash Charging",
+                        "USB Type-C Port"
+                    ],
+                    "rate": "69"
+                }
+            ]
+        },
+        "pro_rate": "7.5/ 10",
+        "user_rate": "4.5/5 (over 5,572 rates)",
+        "pros": [
+            "Appealing design",
+            "Nice display",
+            "Impressive battery life",
+            "Promising cameras in daylight"
+        ],
+        "cons": [
+            "No stereo speakers",
+            "Bloatware",
+            "Performance could have been better"
+        ],
+        "specs": {
+            "Key Specs": {
+                "rate": null,
+                "Description": {
+                    "RAM": "8 GB",
+                    "Processor": "Qualcomm Snapdragon 778G",
+                    "Rear Camera": "50 MP + 8 MP + 2 MP",
+                    "Front Camera": "50 MP",
+                    "Battery": "4600 mAh",
+                    "Display": "6.78 inches (17.22 cm)"
+                }
+            },
+            "General": {
+                "rate": null,
+                "Description": {
+                    "Launch Date": "October 4, 2023 (Official)",
+                    "Operating System": "Android v13",
+                    "Custom UI": "Funtouch OS"
+                }
+            },
+            "Performance": {
+                "rate": "80",
+                "Description": {
+                    "Chipset": "Qualcomm Snapdragon 778G",
+                    "CPU": "Octa core (2.4 GHz, Single core, Kryo 670 + 2.4 GHz, Tri core, Kryo 670 + 1.8 GHz, Quad core, Kryo 670)",
+                    "Architecture": "64 bit",
+                    "Fabrication": "6 nm",
+                    "Graphics": "Adreno 642L",
+                    "RAM": {
+                        "Description": "8 GB",
+                        "rate": "98"
+                    },
+                    "RAM Type": "LPDDR4X"
+                }
+            },
+            "Display": {
+                "rate": "80",
+                "Description": {
+                    "Display Type": "AMOLED",
+                    "Screen Size": "6.78 inches (17.22 cm)",
+                    "Resolution": "1260 x 2800 pixels",
+                    "Aspect Ratio": "20:9",
+                    "Pixel Density": {
+                        "Description": "453 ppi",
+                        "rate": "99"
+                    },
+                    "Screen to Body Ratio (calculated)": "90.89 %",
+                    "Bezel-less display": "Yes with punch-hole display",
+                    "Touch Screen": "Yes, Capacitive Touchscreen, Multi-touch",
+                    "HDR 10 / HDR+ support": "Yes, HDR 10+",
+                    "Refresh Rate": "120 Hz"
+                }
+            },
+            "Design": {
+                "rate": null,
+                "Description": {
+                    "Height": "164.18 mm Compare Size",
+                    "Width": "74.37 mm",
+                    "Thickness": {
+                        "Description": "7.46 mm",
+                        "rate": "87"
+                    },
+                    "Weight": {
+                        "Description": "186 grams",
+                        "rate": "45"
+                    },
+                    "Build Material": "Back: Mineral Glass",
+                    "Colours": "Space Black, Himalayan Blue, Majestic Red"
+                }
+            },
+            "Camera": {
+                "rate": "90",
+                "Description": {
+                    "MAIN CAMERA": {
+                        "Camera Setup": "Triple",
+                        "Resolution": [
+                            "50 MP f/1.88, Wide Angle, Primary Camera",
+                            "(1.56\" sensor size, 1µm pixel size)",
+                            "8 MP f/2.2, Ultra-Wide Angle Camera",
+                            "(4.0\" sensor size, 1.12µm pixel size)",
+                            "2 MP f/2.4, Depth Camera"
+                        ],
+                        "Sensor": "S5KGN5, ISO-CELL",
+                        "Autofocus": "Yes",
+                        "OIS": "Yes",
+                        "Flash": "Yes, LED Flash + Aura Light",
+                        "Image Resolution": "8150 x 6150 Pixels",
+                        "Settings": "Exposure compensation, ISO control",
+                        "Shooting Modes": [
+                            "Continuous Shooting",
+                            "High Dynamic Range mode (HDR)",
+                            "SuperMoon"
+                        ],
+                        "Camera Features": [
+                            "Digital Zoom",
+                            "Auto Flash",
+                            "Face detection",
+                            "Touch to focus"
+                        ],
+                        "Video Recording": [
+                            "3840x2160 @ 30 fps",
+                            "1920x1080 @ 30 fps"
+                        ],
+                        "Video Recording Features": [
+                            "Dual Video Recording",
+                            "Vlog Mode"
+                        ]
+                    },
+                    "FRONT CAMERA": {
+                        "Camera Setup": "Single",
+                        "Resolution": [
+                            "50 MP f/2.0, Wide Angle, Primary Camera",
+                            "(22 mm focal length)"
+                        ],
+                        "Autofocus": "Yes",
+                        "Video Recording": [
+                            "3840x2160 @ 30 fps",
+                            "1920x1080 @ 30 fps"
+                        ]
+                    }
+                }
+            },
+            "Battery": {
+                "rate": "69",
+                "Description": {
+                    "Capacity": "4600 mAh",
+                    "Type": "Li-Polymer",
+                    "Removable": "No",
+                    "Quick Charging": "Yes, Flash, 80W: 50 % in 18 minutes",
+                    "USB Type-C": "Yes"
+                }
+            },
+            "Storage": {
+                "rate": "99",
+                "Description": {
+                    "Internal Memory": {
+                        "Description": "128 GB",
+                        "rate": "99"
+                    },
+                    "Expandable Memory": "No",
+                    "USB OTG": "Yes",
+                    "Storage Type": "UFS 3.1"
+                }
+            },
+            "Network & Connectivity": {
+                "rate": null,
+                "Description": {
+                    "SIM Slot(s)": "Dual SIM, GSM+GSM",
+                    "SIM Size": "SIM1: Nano, SIM2: Nano",
+                    "Network Support": "5G Supported in India, 4G Supported in India, 3G, 2G",
+                    "VoLTE": "Yes",
+                    "SIM 1": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N7 / N8 / N28",
+                            "TDD N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 2100(band 34) / 1900(band 39)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1700(band 4) / 850(band 5) / 850(band 19)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SIM 2": {
+                        "5G Bands:": [
+                            "FDD N1 / N3 / N5 / N7 / N8 / N28",
+                            "TDD N77 / N78"
+                        ],
+                        "4G Bands:": [
+                            "TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 2100(band 34) / 1900(band 39)",
+                            "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 700(band 28) / 1700(band 4) / 850(band 5) / 850(band 19)"
+                        ],
+                        "3G Bands:": [
+                            "UMTS 1900 / 2100 / 850 / 900 MHz"
+                        ],
+                        "2G Bands:": [
+                            "GSM 1800 / 1900 / 850 / 900 MHz"
+                        ],
+                        "GPRS:": [
+                            "Available"
+                        ],
+                        "EDGE:": [
+                            "Available"
+                        ]
+                    },
+                    "SAR Value": "Head: 1.19 W/kg, Body: 0.91 W/kg",
+                    "Wi-Fi": "Yes, Wi-Fi 5 (802.11 a/b/g/n/ac) 5GHz",
+                    "Wi-Fi Features": "Mobile Hotspot",
+                    "Bluetooth": "Yes, v5.2",
+                    "GPS": "Yes with A-GPS, Glonass",
+                    "NFC": "No",
+                    "USB Connectivity": "Mass storage device, USB charging"
+                }
+            },
+            "Multimedia": {
+                "rate": null,
+                "Description": {
+                    "FM Radio": "No",
+                    "Stereo Speakers": "Yes",
+                    "Loudspeaker": "Yes",
+                    "Audio Jack": "USB Type-C"
+                }
+            },
+            "Sensors": {
+                "rate": null,
+                "Description": {
+                    "Fingerprint Sensor": "Yes",
+                    "Fingerprint Sensor Position": "On-screen",
+                    "Fingerprint Sensor Type": "Optical",
+                    "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+                }
+            }
+        }
+    }
+}
