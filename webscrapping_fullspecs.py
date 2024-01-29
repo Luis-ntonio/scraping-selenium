@@ -167,20 +167,19 @@ def mains(urls):
             driver.quit()
         except Exception as e:
             urls_err.append(url)
-            """with open("./data_indi/mobiles/fullspecs/models.json", "w", encoding='utf-8') as f:
-                json.dump(models_box, f, indent=4, ensure_ascii=False)"""
             driver.close()
             driver.quit()
     return models_box, urls_err
-
-with open('./data_indi/mobiles/urls/urls.json') as f:
+    
+folder = input("Enter folder name: ")
+with open(f'./{folder}/mobiles/urls/urls.json') as f:
     urls = json.load(f)
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
-        models_box, urls_err = list(executor.map(mains, urls))
+    
+    models_box, urls_err = mains(urls)
 
-with open("./data_indi/mobiles/fullspecs/models.json", "w", encoding='utf-8') as f:
+with open(f"./{folder}/mobiles/fullspecs/models.json", "w", encoding='utf-8') as f:
     json.dump(models_box, f, indent=4, ensure_ascii=False)
 
-with open("./data_indi/mobiles/fullspecs/urls_err.json", "w", encoding='utf-8') as f:
+with open(f"./{folder}/mobiles/urls/urls_err.json", "w", encoding='utf-8') as f:
     json.dump(urls_err, f, indent=4, ensure_ascii=False)
     
