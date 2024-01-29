@@ -13,22 +13,21 @@ import json
 
 
 options = webdriver.ChromeOptions()
-driver = webdriver.Remote(command_executor="http://localhost:4444", options=options)
 
-models_box = {}
 
-def main(): 
-    with open("./data/mobiles/urls/urls.json") as f:
-        urls = json.load(f)
 
-        for url in urls:
-            print("Scraping: ", url)
+def mains(urls): 
+    models_box = {}
+    urls_err = []
+    
 
+    for url in urls:
+        try:
+            #print("Scraping: ", url)
+            driver = webdriver.Remote(command_executor="http://localhost:4444", options=options)
             driver.get(url)
-
             key_spec = {}
             box_desc = {}
-
             flg_exist_model = len(driver.find_elements(by=By.CLASS_NAME, value="h1_pro_head")) > 0
             flg_exist_keys = len(driver.find_elements(by=By.CLASS_NAME, value="key_specs_box")) > 0
             flg_exist_pro_rate = len(driver.find_elements(by=By.CLASS_NAME, value="rt_cn")) > 0
@@ -44,11 +43,9 @@ def main():
             pros = None
             cons = None
             specs = None
-
             if flg_exist_model:
                 model = driver.find_elements(by=By.CLASS_NAME, value="h1_pro_head")
                 model = model[0].text
-
             if flg_exist_keys:
                 keys = driver.find_elements(by=By.CLASS_NAME, value="key_specs_box")
                 flg_os = len(driver.find_elements(by=By.CLASS_NAME, value="for_list_li")) > 0
@@ -60,76 +57,60 @@ def main():
                 for key in key_specs_box:
                     flg_exist= len(key.find_elements(by=By.CLASS_NAME, value="mtr_bar_div")) > 0
                     rateing = None
-                    characteristic = key.find_elements(by=By.CLASS_NAME, value="hd_tlt")
-                    characteristic = characteristic[0].text
+                    characteristic = key.find_elements(by=By.CLASS_NAME, value="spcedHead")
+                    characteristic = characteristic[0].text.split('\n')[0]
                     if flg_exist:
                         rateing = key.find_elements(by=By.CLASS_NAME, value="mtr_bar_div")
                         rateing = rateing[0].find_elements(by=By.CSS_SELECTOR, value="div")
                         rateing = rateing[0].get_attribute("style").split(': ')[1].split('%')[0]
-
                     key_specs = key.find_elements(by=By.CSS_SELECTOR, value="label")
                     key_specs = [spec.text for spec in key_specs]
-
                     tmp_dict = {
                         "values": key_specs,
                         "rate": rateing
                     }
-
                     if characteristic in key_spec:
                         key_spec[characteristic].append(tmp_dict)
                     else:
                         key_spec[characteristic] = []
                         key_spec[characteristic].append(tmp_dict)
-
             if flg_exist_pro_rate:
                 pro_rate = driver.find_elements(by=By.CLASS_NAME, value="rt_cn")
-
                 rt_pt = pro_rate[0].find_elements(by=By.CLASS_NAME, value="rt_pt")
                 rt_pt = rt_pt[0].text
-
                 out5 = pro_rate[0].find_elements(by=By.CLASS_NAME, value="out5")
                 out5 = out5[0].text
                 pro_rate = rt_pt + out5
-
             if flg_exist_user_rate:
                 user_rate = driver.find_elements(by=By.CLASS_NAME, value="usr_cn")
-
                 rt_pt = user_rate[0].find_elements(by=By.CLASS_NAME, value="rt_pt")
                 rt_pt = rt_pt[0].text
-
                 out5 = user_rate[0].find_elements(by=By.CLASS_NAME, value="out5")
                 out5 = out5[0].text
-
                 ovrate = user_rate[0].find_elements(by=By.CSS_SELECTOR, value="b")
                 ovrate = ovrate[0].text
                 user_rate = rt_pt + out5 + " (over " + ovrate + " rates)"
-
             if flg_exist_pros:
                 pros = driver.find_elements(by=By.CLASS_NAME, value="proxBox")
                 pros = pros[0].find_elements(by=By.CSS_SELECTOR, value="li")
                 pros = [pro.text for pro in pros]
-
             if flg_exist_cons:
                 cons = driver.find_elements(by=By.CLASS_NAME, value="consBox")
                 cons = cons[0].find_elements(by=By.CSS_SELECTOR, value="li")
                 cons = [con.text for con in cons]
-
             if flg_exist_specs:
                 specs = driver.find_elements(by=By.ID, value="specifications")
                 spec_box = specs[0].find_elements(by=By.CLASS_NAME, value="spec_box")
-
                 for box in spec_box:
                     spec = box.find_elements(by=By.CLASS_NAME, value="specHead")
                     spec = spec[0].text
                     lft = box.find_elements(by=By.CLASS_NAME, value="spcsLeft")
-
                     flg_rate = len(lft[0].find_elements(by=By.CLASS_NAME, value="hd_tlt")) > 0
                     rate = None
                     if flg_rate:
                         rate = lft[0].find_elements(by=By.CLASS_NAME, value="mtr_bar_div")
                         rate = rate[0].find_elements(by=By.CSS_SELECTOR, value="div")
                         rate = rate[0].get_attribute("style").split(': ')[1].split('%')[0]
-
                     desc = box.find_elements(by=By.CLASS_NAME, value="spec_table")
                     desc = desc[0].find_elements(by=By.CSS_SELECTOR, value="tbody")
                     desc = desc[0].find_elements(by=By.CSS_SELECTOR, value="tr")
@@ -159,7 +140,6 @@ def main():
                                     tmp = specs_desc[i].split('\n')
                                     multispec[specs_sub[i]] = tmp
                                 specs = multispec
-
                             elif flg_rate:
                                 specs_rate = specs[0].find_elements(by=By.CLASS_NAME, value="select_arrow")
                                 specs_rate = specs_rate[0].find_elements(by=By.CLASS_NAME, value="mtr_bar_div")
@@ -171,12 +151,10 @@ def main():
                                 specs = specs[0].text.split('\n')
                                 if len(specs) == 1:
                                     specs = specs[0]
-
                             if is_sub:
                                 box_desc[spec]["Description"][subdesc][title] = specs
                             else:
                                 box_desc[spec]["Description"][title] = specs
-
             models_box[model] = {
                 "keys": key_spec,
                 "pro_rate": pro_rate,
@@ -185,35 +163,24 @@ def main():
                 "cons": cons,
                 "specs": box_desc
             }
+            driver.close()
+            driver.quit()
+        except Exception as e:
+            urls_err.append(url)
+            """with open("./data_indi/mobiles/fullspecs/models.json", "w", encoding='utf-8') as f:
+                json.dump(models_box, f, indent=4, ensure_ascii=False)"""
+            driver.close()
+            driver.quit()
+    return models_box, urls_err
 
-        with open("./data/mobiles/fullspecs/models.json", "w", encoding='utf-8') as f:
-            json.dump(models_box, f, indent=4, ensure_ascii=False)
-
-    driver.close()
-    driver.quit()
-
-main()
-"""ret = []
-unique_items = set()
-result_list = []
-with open("./data/tablets/mainpage/keys.json") as f:
-    
-    keys = json.load(f)
-    for key in keys:
-        if key['model'] not in unique_items:
-            unique_items.add(key['model'])
-            result_list.append(key)
-    print("Lista original:", len(keys))
-    print("Lista sin duplicados:", len(result_list))
-with open("./data/tablets/mainpage/keys.json", "w", encoding='utf-8') as f:
-    json.dump(result_list, f, indent=4, ensure_ascii=False)
-    
-with open("./data/tablets/urls/urls.json") as f:
+with open('./data_indi/mobiles/urls/urls.json') as f:
     urls = json.load(f)
-    list_without_duplicates = remove_duplicates(urls)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        models_box, urls_err = list(executor.map(mains, urls))
 
-    print("Lista original:", len(urls))
-    print("Lista sin duplicados:", len(list_without_duplicates))
+with open("./data_indi/mobiles/fullspecs/models.json", "w", encoding='utf-8') as f:
+    json.dump(models_box, f, indent=4, ensure_ascii=False)
 
-with open("./data/tablets/urls/urls.json", "w", encoding='utf-8') as f:
-    json.dump(list_without_duplicates, f, indent=4, ensure_ascii=False)"""
+with open("./data_indi/mobiles/fullspecs/urls_err.json", "w", encoding='utf-8') as f:
+    json.dump(urls_err, f, indent=4, ensure_ascii=False)
+    

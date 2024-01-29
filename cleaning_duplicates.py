@@ -26,13 +26,13 @@ def main(link):
                 result_list.append(key)
         print("Lista original:", len(keys))
         print("Lista sin duplicados:", len(result_list))
-
+        
     with open(link[0], "w", encoding='utf-8') as f:
         json.dump(result_list, f, indent=4, ensure_ascii=False)
 
     with open(link[1]) as f:
         urls = json.load(f)
-        list_without_duplicates = remove_duplicates(urls)
+        list_without_duplicates = remove_duplicates(input_list=urls)
 
         print("Lista original:", len(urls))
         print("Lista sin duplicados:", len(list_without_duplicates))
