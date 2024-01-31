@@ -13,7 +13,7 @@ options = webdriver.ChromeOptions()
 urls_hindi = []
 urls_tamil = []
 
-with open('./data/mobiles/urls/urls.json') as f:
+with open('./data/tablets/urls/urls.json') as f:
     urls = json.load(f)
 
 for url in urls:
