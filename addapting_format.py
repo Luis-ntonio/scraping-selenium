@@ -3,7 +3,7 @@ from fuzzywuzzy import fuzz
 
 def main(folder):
     err_model = []
-    with open(f'./{folder}/mobiles/fullspecs/models_fix.json') as f:
+    with open(f'./{folder}/mobiles/fullspecs/models.json', encoding='utf-8') as f:
         mobiles = json.load(f)
         for mobile in mobiles:
             try:
