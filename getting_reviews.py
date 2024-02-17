@@ -7,13 +7,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
-
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 import time
 import json
 import random
+err={}
 
 
 options = webdriver.ChromeOptions()
@@ -63,7 +63,7 @@ def main():
                 driver.close()
                 driver.quit()
             except Exception as e:
-                print(model)
+                err[model] = {}
                 driver.close()
                 driver.quit()
         return 0
@@ -72,3 +72,5 @@ main()
 print(model_reviews)
 with open('data/mobiles/fullspecs/model_reviews.json', 'w', encoding='UTF-8') as f:
     json.dump(model_reviews, f)
+with open('data/mobiles/fullspecs/err.json', 'w', encoding='UTF-8') as f:
+    json.dump(err, f)
