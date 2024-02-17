@@ -40,13 +40,13 @@ def main():
 
                 search_box.click()
 
-                time.sleep(2)
+                time.sleep(1.5)
                 items = driver.find_elements(by=By.CLASS_NAME, value="easy-autocomplete-container")
                 items = items[0].find_elements(by=By.TAG_NAME, value="li") 
                 item = items[0]
                 item.click()
 
-                time.sleep(2)
+                time.sleep(1)
 
                 model_ = driver.find_element(by=By.CLASS_NAME, value="h1-box")
                 info = driver.find_elements(by=By.CLASS_NAME, value="info")
@@ -60,12 +60,9 @@ def main():
                             model_reviews[model]['review'] = i.text
                             break
                         
-                driver.close()
                 driver.quit()
             except Exception as e:
                 err[model] = {}
-                driver.close()
-                driver.quit()
         return 0
 
 main()
