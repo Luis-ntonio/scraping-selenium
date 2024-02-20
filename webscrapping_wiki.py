@@ -1,5 +1,4 @@
 import concurrent.futures
-from selectolax.parser import HTMLParser
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
