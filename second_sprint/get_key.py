@@ -47,7 +47,6 @@ def main():
         
         i += 1
         print(i)
-        break
     
     with open('./data/mobiles/mainpage/keys.json', 'w', encoding='UTF-8') as f:
         json.dump(key_model, f, indent=4, ensure_ascii=False)

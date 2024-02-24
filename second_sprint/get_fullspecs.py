@@ -54,7 +54,6 @@ def main():
             urlss.append(url)
         i += 1
         print(i)
-        break
     
     with open('./data/mobiles/mainpage/fullspecs.json', 'w', encoding='UTF-8') as f:
         json.dump(full_model, f, indent=4, ensure_ascii=False)
