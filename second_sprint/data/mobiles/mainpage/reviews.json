@@ -1,0 +1,20 @@
+{
+    "https://pricebaba.com/mobile/lg-nexus-4": {
+        "text": {
+            "Overview": [
+                "LG Nexus 4 phone is the latest Google branded smartphone, thus replacing the Samsung Galaxy Nexus. The phone has a 4.7\" capacitive touch screen with a resolution of 1280 x 768 pixels. This True HD IPS display has a Corning Gorilla Glass for protection. The LG Nexus 4 has a glass back similar to the one seen on the Apple iPhone 4. The phone runs on Android 4.2 Jelly Bean OS and is powered by a 1.5 GHz Quad-core Qualcomm Snapdragon S4 Krait Processor. Nexus 4 comes in two variants of internal storage, 8GB and 16GB. The powerful processor and display are complimented by 2GB of RAM. The Nexus 4 supports quad-band 2G and 3G networks and dual-band WiFi. The phone has Bluetooth 4.0, is NFC capable and has a microUSB port for entailing transfer of files efficiently.",
+                "The phone sports an 8 MP camera with auto focus, LED Flash and full HD video recording facility. The camera has additional features such a face detection, image stabilization, photo sphere and Geo-tagging. It gives an image resolution of 3264 x 2448 pixels and video recording of 1080p at 30 fps. This phone also offers a secondary front-facing camera of 1.3MP. The phone has a non-removable 2100 mAh standard Li-ion battery which provides 15 hours of talk time and 390 hours in stand-by mode. Its other features include GPS support, sensors like accelerometer, proximity and compass, active noise cancellation, image/video editor, voice memo and predictive text input."
+            ]
+        },
+        "Pros": [
+            "Excellent Vanilla Android Experience",
+            "Smaller form factor, good for one handed use",
+            "Sharp HD display with a pixel density of 318PPI"
+        ],
+        "Cons": [
+            "Below average rear camera output",
+            "Non-expandable storage",
+            "Glass build on the back makes the phone slippery and prone to drops"
+        ]
+    }
+}

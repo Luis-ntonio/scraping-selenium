@@ -1,0 +1,35 @@
+{
+    "https://pricebaba.com/mobile/huawei-mate-9-porsche-design": {
+        "Operating System": [
+            "Android v7.0 (Nougat)"
+        ],
+        "Display": [
+            "5.5 inches (13.97 cm) display",
+            "Scratch-resistant glass Protection"
+        ],
+        "Design": [
+            "Slim Design",
+            "Metal Back, Metal Frame"
+        ],
+        "Performance": [
+            "HiSilicon Kirin 960 Octa core Processor",
+            "6 GB RAM",
+            "256 GB internal storage, Non-Expandable Memory"
+        ],
+        "Camera": [
+            "20 + 12 MP Dual Rear Cameras",
+            "8 MP Front Camera"
+        ],
+        "Battery": [
+            "4000 mAh battery with Fast Charging"
+        ],
+        "Connectivity": [
+            "Dual SIM: Nano + Nano (Hybrid) with VoLTE support",
+            "SIM1: Supports 4G, 3G"
+        ],
+        "Special Features": [
+            "Front Fingerprint Sensor",
+            "3.5 mm headphone jack present"
+        ]
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "https://pricebaba.com/mobile/huawei-mate-9-porsche-design": {
+        "Launch Date": "Note: Scores are assigned in comparison to similarly priced products",
+        "General": {
+            "Operating System": [
+                "Android 7.0 (Nougat)"
+            ],
+            "Dimensions": [
+                "152mm x 75mm x 7.5mm"
+            ],
+            "Weight": [
+                "169g"
+            ]
+        },
+        "Display & Design": {
+            "Size": [
+                "5.5 inches (13.97 cm)"
+            ],
+            "Resolution": [
+                "1440 x 2560 pixels"
+            ],
+            "Pixel Density": [
+                "534ppi"
+            ],
+            "Touch Screen": [
+                "Yes, Capacitive Touchscreen, Multi-touch"
+            ],
+            "Type": [
+                "AMOLED"
+            ],
+            "Screen Protection": [
+                "Yes"
+            ],
+            "Colour Options": [
+                "Graphite Black"
+            ]
+        },
+        "Hardware": {
+            "Chipset": [
+                "HiSilicon Kirin 960"
+            ],
+            "CPU": [
+                "4 x 2.4GHz Cortex A73",
+                "4 x 1.8GHz Cortex A53"
+            ],
+            "GPU": [
+                "Mali-G71 MP8"
+            ],
+            "Architecture": [
+                "64-bit"
+            ],
+            "RAM": [
+                "6 GB"
+            ],
+            "Internal Storage": [
+                "256 GB"
+            ],
+            "MicroSD Card Slot": [
+                "No"
+            ]
+        },
+        "Main Camera": {
+            "Number of Cameras": [
+                "Dual"
+            ],
+            "Resolution": [
+                "20 MP f/2.2 main camera",
+                "PDAF, Digital Zoom",
+                "12 MP camera"
+            ],
+            "Flash": [
+                "Dual-color LED Flash"
+            ],
+            "Video": [
+                "3840x2160@30fps"
+            ],
+            "Features": [
+                "AF Phase Detection, Auto Flash, Auto Focus, Bokeh Effect, CMOS image sensor, Continuos Shooting, Digital image stabilization, Exposure compensation, Face detection, Geo tagging, High Dynamic Range mode (HDR), ISO control, Laser AF, Self-timer, Touch to focus, White balance presets"
+            ]
+        },
+        "Front Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "8 MP f/1.9 main camera"
+            ],
+            "Video": [
+                "1920x1080@30fps"
+            ],
+            "Features": [
+                "Auto Focus"
+            ]
+        },
+        "Battery": {
+            "Capacity": [
+                "4000 mAh"
+            ],
+            "Type": [
+                "Li-Polymer"
+            ],
+            "Fast Charging": [
+                "Yes"
+            ]
+        },
+        "Security & Sensors": {
+            "Fingerprint Sensor": [
+                "Yes, Front"
+            ],
+            "Sensors": [
+                "Proximity sensor, Accelerometer, Compass, Gyroscope"
+            ]
+        },
+        "Connectivity & Audio": {
+            "Network": [
+                "2G, 3G, 4G (compatible with India), VoLTE"
+            ],
+            "SIM 1 Bands": [
+                "4G Bands: TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 1900(band 39)",
+                "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 1900(band 2) / 1700(band 4) / 850(band 5) / 800(band 20)",
+                "3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz",
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM 2 Bands": [
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz"
+            ],
+            "SIM card slots": [
+                "Dual SIM"
+            ],
+            "SIM card type": [
+                "Nano + Nano (Hybrid)"
+            ],
+            "Charging Port": [
+                "USB Type-C"
+            ],
+            "USB OTG": [
+                "Yes"
+            ],
+            "Wi-Fi": [
+                "Wi-Fi 802.11, b/g/n, Mobile Hotspot"
+            ],
+            "Bluetooth": [
+                "Bluetooth 4.2"
+            ],
+            "NFC": [
+                "Yes"
+            ],
+            "GPS": [
+                "Yes with A-GPS"
+            ],
+            "Loudspeaker": [
+                "Yes"
+            ],
+            "3.5mm headphone jack": [
+                "Yes"
+            ]
+        }
+    }
+}
