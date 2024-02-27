@@ -1,0 +1,890 @@
+{
+    "https://pricebaba.com/mobile/sony-xperia-e4g": {
+        "Launch Date": "Launched in: April 2015\nNote: Scores are assigned in comparison to similarly priced products\nModel Name: E2003",
+        "General": {
+            "Operating System": [
+                "Android 4.4.4 (Kitkat)"
+            ],
+            "Dimensions": [
+                "133mm x 71mm x 10.8mm"
+            ],
+            "Weight": [
+                "135g"
+            ]
+        },
+        "Display & Design": {
+            "Size": [
+                "4.7 inches (11.94 cm)"
+            ],
+            "Resolution": [
+                "540 x 960 pixels"
+            ],
+            "Pixel Density": [
+                "234ppi"
+            ],
+            "Touch Screen": [
+                "Yes, Capacitive Touchscreen, Multi-touch"
+            ],
+            "Type": [
+                "IPS LCD"
+            ],
+            "Screen Protection": [
+                "Yes"
+            ],
+            "Colour Options": [
+                "Black, White"
+            ]
+        },
+        "Hardware": {
+            "Chipset": [
+                "MediaTek MT6732"
+            ],
+            "CPU": [
+                "4 x 1.5GHz Cortex A7"
+            ],
+            "GPU": [
+                "Mali-T760 MP2"
+            ],
+            "Architecture": [
+                "64-bit"
+            ],
+            "RAM": [
+                "1 GB"
+            ],
+            "Internal Storage": [
+                "8 GB"
+            ],
+            "MicroSD Card Slot": [
+                "Up to 32 GB"
+            ]
+        },
+        "Main Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "5 MP main camera",
+                "Digital Zoom"
+            ],
+            "Flash": [
+                "LED Flash"
+            ],
+            "Video": [
+                "1920x1080@30fps"
+            ],
+            "Features": [
+                "Auto Focus, Face detection, Geo tagging, High Dynamic Range mode (HDR), Touch to focus"
+            ]
+        },
+        "Front Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "2 MP main camera"
+            ],
+            "Video": [
+                "1280x720fps"
+            ]
+        },
+        "Battery": {
+            "Capacity": [
+                "2300 mAh"
+            ],
+            "Type": [
+                "Li-ion"
+            ]
+        },
+        "Security & Sensors": {
+            "Sensors": [
+                "Proximity sensor, Accelerometer"
+            ]
+        },
+        "Connectivity & Audio": {
+            "Network": [
+                "2G, 3G, 4G (compatible with India)"
+            ],
+            "SIM 1 Bands": [
+                "4G Bands: TD-LTE 2300(band 40)",
+                "3G Bands: UMTS 2100 / 900 MHz",
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "4G Speed: 50 Mbit/s ↑ 150 Mbit/s ↓ (LTE category 4)",
+                "3G Speed: HSDPA 21.1 Mbit/s ↓, HSUPA 5.76 Mbit/s ↑",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM card slots": [
+                "Single SIM"
+            ],
+            "SIM card type": [
+                "Micro"
+            ],
+            "Charging Port": [
+                "microUSB 2.0"
+            ],
+            "Wi-Fi": [
+                "Wi-Fi 802.11, b/g/n, Mobile Hotspot"
+            ],
+            "Bluetooth": [
+                "Bluetooth 4.1"
+            ],
+            "NFC": [
+                "Yes"
+            ],
+            "GPS": [
+                "Yes with A-GPS"
+            ],
+            "FM Radio": [
+                "Yes"
+            ],
+            "Loudspeaker": [
+                "Yes"
+            ],
+            "3.5mm headphone jack": [
+                "Yes"
+            ]
+        }
+    },
+    "https://pricebaba.com/mobile/xiaomi-redmi-note-7s-64gb": {
+        "Launch Date": "Launched in: May 2019\nNote: Scores are assigned in comparison to similarly priced products",
+        "General": {
+            "Operating System": [
+                "Android 9.0 (Pie)"
+            ],
+            "Custom UI": [
+                "MIUI"
+            ],
+            "Dimensions": [
+                "159.2mm x 75.2mm x 8.1mm"
+            ],
+            "Weight": [
+                "186g"
+            ]
+        },
+        "Display & Design": {
+            "Size": [
+                "6.3 inches (16 cm)"
+            ],
+            "Resolution": [
+                "1080 x 2340 pixels"
+            ],
+            "Pixel Density": [
+                "409ppi"
+            ],
+            "Touch Screen": [
+                "Yes, Capacitive Touchscreen, Multi-touch"
+            ],
+            "Type": [
+                "IPS LCD, 2.5D Curved Glass"
+            ],
+            "Aspect Ratio": [
+                "19.5:9"
+            ],
+            "Screen Protection": [
+                "Corning Gorilla Glass v5"
+            ],
+            "Design": [
+                "Waterdrop notch display"
+            ],
+            "Colour Options": [
+                "Onyx Black, Sapphire Blue, Ruby Red"
+            ],
+            "Water Resistance": [
+                "Splash proof"
+            ]
+        },
+        "Hardware": {
+            "Chipset": [
+                "Qualcomm Snapdragon 660 MSM8956"
+            ],
+            "CPU": [
+                "4 x 2.2GHz Kryo 260",
+                "4 x 1.84GHz Kryo 260"
+            ],
+            "GPU": [
+                "Adreno 512"
+            ],
+            "Architecture": [
+                "64-bit"
+            ],
+            "RAM": [
+                "4 GB"
+            ],
+            "Internal Storage": [
+                "64 GB"
+            ],
+            "MicroSD Card Slot": [
+                "Up to 256 GB"
+            ]
+        },
+        "Main Camera": {
+            "Number of Cameras": [
+                "Dual"
+            ],
+            "Resolution": [
+                "48 MP f/1.8 main camera",
+                "PDAF, EIS, Digital Zoom",
+                "5 MP f/2.2 depth sensor"
+            ],
+            "Flash": [
+                "LED Flash"
+            ],
+            "Video": [
+                "1920x1080@30fps, 1280x720@30fps"
+            ],
+            "Features": [
+                "AF Phase Detection, Artificial Intelligence, Auto Flash, Auto Focus, Bokeh Effect, Continuous Shooting, Electronic Image Stabilization (EIS), Exposure compensation, Face detection, Geo tagging, High Dynamic Range mode (HDR), ISO control, ISOCELL Plus, Touch to focus, White balance presets"
+            ]
+        },
+        "Front Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "13 MP f/2.0 main camera"
+            ],
+            "Video": [
+                "1920x1080@30fps"
+            ],
+            "Features": [
+                "Artificial Intelligence, Face detection, High Dynamic Range mode (HDR), Self-timer"
+            ]
+        },
+        "Battery": {
+            "Capacity": [
+                "4000 mAh"
+            ],
+            "Type": [
+                "Li-Polymer"
+            ],
+            "Wireless Charging": [
+                "No"
+            ],
+            "Fast Charging": [
+                "Yes, Quick, v4.0"
+            ]
+        },
+        "Security & Sensors": {
+            "Fingerprint Sensor": [
+                "Yes, Rear"
+            ],
+            "Sensors": [
+                "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+            ]
+        },
+        "Connectivity & Audio": {
+            "Network": [
+                "2G, 3G, 4G (compatible with India), VoLTE"
+            ],
+            "SIM 1 Bands": [
+                "4G Bands: TD-LTE 2300(band 40) / 2500(band 41)",
+                "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)",
+                "3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz",
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM 2 Bands": [
+                "4G Bands: TD-LTE 2300(band 40) / 2500(band 41)",
+                "FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)",
+                "3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz",
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM card slots": [
+                "Dual SIM"
+            ],
+            "SIM card type": [
+                "Nano + Nano (Hybrid)"
+            ],
+            "Charging Port": [
+                "USB Type-C"
+            ],
+            "USB OTG": [
+                "Yes"
+            ],
+            "Wi-Fi": [
+                "Wi-Fi 802.11, a/ac/b/g/n/n 5GHz, Wi-Fi Direct, Mobile Hotspot"
+            ],
+            "Bluetooth": [
+                "Bluetooth 5.0"
+            ],
+            "GPS": [
+                "Yes with A-GPS, Glonass"
+            ],
+            "Loudspeaker": [
+                "Yes"
+            ],
+            "3.5mm headphone jack": [
+                "Yes"
+            ]
+        }
+    },
+    "https://pricebaba.com/mobile/meizu-m5-3gb-32gb": {
+        "Launch Date": "Launched in: May 2017\nNote: Scores are assigned in comparison to similarly priced products",
+        "General": {
+            "Operating System": [
+                "Android 6.0 (Marshmallow)"
+            ],
+            "Dimensions": [
+                "147.2mm x 72.8mm x 8mm"
+            ],
+            "Weight": [
+                "138g"
+            ]
+        },
+        "Display & Design": {
+            "Size": [
+                "5.2 inches (13.21 cm)"
+            ],
+            "Resolution": [
+                "720 x 1280 pixels"
+            ],
+            "Pixel Density": [
+                "282ppi"
+            ],
+            "Touch Screen": [
+                "Yes, Capacitive Touchscreen, Multi-touch"
+            ],
+            "Type": [
+                "IPS LCD, 2.5D Curved Glass"
+            ],
+            "Colour Options": [
+                "Champanage Gold, Sapphire Blue"
+            ]
+        },
+        "Hardware": {
+            "Chipset": [
+                "MediaTek MT6750"
+            ],
+            "CPU": [
+                "4 x 1.5GHz Cortex A53",
+                "4 x 1GHz Cortex A53"
+            ],
+            "GPU": [
+                "Mali-T860 MP2"
+            ],
+            "Architecture": [
+                "64-bit"
+            ],
+            "RAM": [
+                "3 GB"
+            ],
+            "Internal Storage": [
+                "32 GB"
+            ],
+            "MicroSD Card Slot": [
+                "Up to 128 GB"
+            ]
+        },
+        "Main Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "13 MP f/2.2 main camera",
+                "PDAF, Digital Zoom"
+            ],
+            "Flash": [
+                "Dual-color LED Flash"
+            ],
+            "Video": [
+                "1920x1080@30fps"
+            ],
+            "Features": [
+                "AF Phase Detection, Auto Flash, Auto Focus, CMOS image sensor, Continuos Shooting, Exposure compensation, Face detection, Geo tagging, High Dynamic Range mode (HDR), ISO control, Self-timer, Touch to focus, White balance presets"
+            ]
+        },
+        "Front Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "5 MP f/2.0 main camera"
+            ]
+        },
+        "Battery": {
+            "Capacity": [
+                "3070 mAh"
+            ],
+            "Type": [
+                "Li-ion"
+            ],
+            "Wireless Charging": [
+                "No"
+            ],
+            "Fast Charging": [
+                "No"
+            ]
+        },
+        "Security & Sensors": {
+            "Fingerprint Sensor": [
+                "Yes, Front"
+            ],
+            "Sensors": [
+                "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+            ]
+        },
+        "Connectivity & Audio": {
+            "Network": [
+                "2G, 3G, 4G (compatible with India)"
+            ],
+            "SIM 1 Bands": [
+                "4G Bands: TD-LTE 2600(band 38) / 2300(band 40)",
+                "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 850(band 5) / 800(band 20)",
+                "3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz",
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM 2 Bands": [
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM card slots": [
+                "Dual SIM"
+            ],
+            "SIM card type": [
+                "Nano + Nano (Hybrid)"
+            ],
+            "Charging Port": [
+                "microUSB 2.0"
+            ],
+            "Wi-Fi": [
+                "Wi-Fi 802.11, a/b/g/n/n 5GHz, Mobile Hotspot"
+            ],
+            "Bluetooth": [
+                "Bluetooth 4.0"
+            ],
+            "NFC": [
+                "No"
+            ],
+            "GPS": [
+                "Yes with A-GPS, Glonass"
+            ],
+            "FM Radio": [
+                "Yes"
+            ],
+            "Loudspeaker": [
+                "Yes"
+            ],
+            "3.5mm headphone jack": [
+                "Yes"
+            ]
+        }
+    },
+    "https://pricebaba.com/mobile/lenovo-k8": {
+        "Launch Date": "Launched in: September 2017\nNote: Scores are assigned in comparison to similarly priced products",
+        "General": {
+            "Operating System": [
+                "Android 7.1.1 (Nougat)"
+            ],
+            "Dimensions": [
+                "147.9mm x 73.7mm x 8.5mm"
+            ],
+            "Weight": [
+                "165g"
+            ]
+        },
+        "Display & Design": {
+            "Size": [
+                "5.2 inches (13.21 cm)"
+            ],
+            "Resolution": [
+                "720 x 1280 pixels"
+            ],
+            "Pixel Density": [
+                "282ppi"
+            ],
+            "Touch Screen": [
+                "Yes, Capacitive Touchscreen, Multi-touch"
+            ],
+            "Type": [
+                "IPS LCD, 2.5D Curved Glass"
+            ],
+            "Colour Options": [
+                "Venom Black, Fine Gold"
+            ]
+        },
+        "Hardware": {
+            "Chipset": [
+                "MediaTek MT6757"
+            ],
+            "CPU": [
+                "4 x 2.3GHz Cortex A53",
+                "4 x 1.6GHz Cortex A53"
+            ],
+            "GPU": [
+                "Mali-T880 MP2"
+            ],
+            "Architecture": [
+                "64-bit"
+            ],
+            "RAM": [
+                "3 GB"
+            ],
+            "Internal Storage": [
+                "32 GB"
+            ],
+            "MicroSD Card Slot": [
+                "Up to 128 GB"
+            ]
+        },
+        "Main Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "13 MP main camera",
+                "PDAF, Digital Zoom"
+            ],
+            "Flash": [
+                "LED Flash"
+            ],
+            "Features": [
+                "AF Phase Detection, Auto Flash, Auto Focus, Continuos Shooting, Exposure compensation, Face detection, Geo tagging, High Dynamic Range mode (HDR), Self-timer, Touch to focus, White balance presets"
+            ]
+        },
+        "Front Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "8 MP main camera"
+            ],
+            "Flash": [
+                "LED Flash"
+            ]
+        },
+        "Battery": {
+            "Capacity": [
+                "4000 mAh"
+            ],
+            "Type": [
+                "Li-Polymer"
+            ],
+            "Wireless Charging": [
+                "No"
+            ],
+            "Fast Charging": [
+                "No"
+            ]
+        },
+        "Security & Sensors": {
+            "Fingerprint Sensor": [
+                "Yes, Rear"
+            ],
+            "Sensors": [
+                "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope"
+            ]
+        },
+        "Connectivity & Audio": {
+            "Network": [
+                "2G, 3G, 4G (compatible with India), VoLTE"
+            ],
+            "SIM 1 Bands": [
+                "4G Bands: TD-LTE 2300(band 40)",
+                "FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 850(band 5)",
+                "3G Bands: UMTS 2100 / 850 / 900 MHz",
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "4G Speed: 50 Mbit/s ↑ 150 Mbit/s ↓ (LTE category 4)",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM 2 Bands": [
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz"
+            ],
+            "SIM card slots": [
+                "Dual SIM"
+            ],
+            "Charging Port": [
+                "microUSB 2.0"
+            ],
+            "Wi-Fi": [
+                "Wi-Fi 802.11, b/g/n, Mobile Hotspot"
+            ],
+            "Bluetooth": [
+                "Bluetooth 4.2"
+            ],
+            "GPS": [
+                "Yes with A-GPS"
+            ],
+            "FM Radio": [
+                "Yes"
+            ],
+            "Loudspeaker": [
+                "Yes, Dolby Atmos"
+            ],
+            "3.5mm headphone jack": [
+                "Yes"
+            ]
+        }
+    },
+    "https://pricebaba.com/mobile/micromax-canvas-fun-a74": {
+        "Launch Date": "Launched in: September 2013\nNote: Scores are assigned in comparison to similarly priced products\nModel Name: A74",
+        "Display": {
+            "Screen Size": [
+                "4.5 inch"
+            ],
+            "Screen Resolution": [
+                "854 x 480 pixels"
+            ],
+            "Screen Type": [
+                "IPS LCD"
+            ],
+            "Pixel Density": [
+                "217.7 PPI"
+            ],
+            "Color": [
+                "Black"
+            ]
+        },
+        "Chipset": {
+            "Brand": [
+                "MediaTek"
+            ],
+            "Processor Speed": [
+                "1.3GHz"
+            ],
+            "Processor": [
+                "MediaTek MT6572"
+            ],
+            "Number of Cores": [
+                "Dual-Core"
+            ],
+            "RAM": [
+                "512MB"
+            ]
+        },
+        "Camera": {
+            "Rear Camera Resolution": [
+                "5MP"
+            ],
+            "Front Camera Resolution": [
+                "1MP"
+            ],
+            "Camera Details": [
+                "Fixed Focus, Flash Support, Zoom Level - 4x, Multi-shot, Night Mode, Wide Screen Video"
+            ],
+            "Video Recording Resolution": [
+                "HD Video Recording (720p)"
+            ],
+            "Rear Camera Features": [
+                "LED Flash"
+            ]
+        },
+        "General Specifications": {
+            "Operating System": [
+                "Android"
+            ],
+            "OS Detail": [
+                "Android (4.2)"
+            ],
+            "Device Type": [
+                "Touchscreen"
+            ],
+            "Weight": [
+                "126 grams"
+            ],
+            "Dimensions (mm)": [
+                "67 x 133 x 10.1"
+            ]
+        },
+        "Storage": {
+            "Internal Storage": [
+                "4GB"
+            ],
+            "Approx. User Available Storage": [
+                "1.25GB"
+            ],
+            "Card Slot": [
+                "Yes"
+            ],
+            "Maximum Card Slot Capacity": [
+                "32GB"
+            ]
+        },
+        "Communication": {
+            "SIM Card Slots": [
+                "Dual"
+            ],
+            "Network Type": [
+                "GSM"
+            ],
+            "SIM Card Type": [
+                "Mini (Standard) SIM"
+            ],
+            "USB Connector Type": [
+                "Micro USB"
+            ],
+            "Features": [
+                "FM Radio"
+            ],
+            "Connectivity": [
+                "3G, 2G, WiFi, Bluetooth"
+            ],
+            "Headphone Jack Type": [
+                "3.5mm"
+            ]
+        },
+        "Battery": {
+            "Battery Capacity": [
+                "1500mAh"
+            ],
+            "Battery Type": [
+                "Lithium-ion (Li-ion)"
+            ],
+            "Removable Battery": [
+                "Yes"
+            ]
+        }
+    },
+    "https://pricebaba.com/mobile/micromax-bolt-selfie-q424": {
+        "Launch Date": "Launched in: May 2016\nNote: Scores are assigned in comparison to similarly priced products\nModel Name: Q424",
+        "General": {
+            "Operating System": [
+                "Android 5.1 (Lollipop)"
+            ]
+        },
+        "Display & Design": {
+            "Size": [
+                "4.5 inches (11.43 cm)"
+            ],
+            "Resolution": [
+                "480 x 854 pixels"
+            ],
+            "Pixel Density": [
+                "218ppi"
+            ],
+            "Touch Screen": [
+                "Yes, Capacitive Touchscreen, Multi-touch"
+            ],
+            "Type": [
+                "IPS LCD"
+            ],
+            "Screen Protection": [
+                "No"
+            ],
+            "Colour Options": [
+                "Black, Champagne"
+            ]
+        },
+        "Hardware": {
+            "Chipset": [
+                "MediaTek MT6735M"
+            ],
+            "CPU": [
+                "4 x 1GHz Cortex A53"
+            ],
+            "GPU": [
+                "Mali-T720 MP2"
+            ],
+            "Architecture": [
+                "64-bit"
+            ],
+            "RAM": [
+                "1 GB"
+            ],
+            "Internal Storage": [
+                "8 GB"
+            ],
+            "MicroSD Card Slot": [
+                "Up to 32 GB"
+            ]
+        },
+        "Main Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "5 MP main camera",
+                "Digital Zoom"
+            ],
+            "Flash": [
+                "LED Flash"
+            ],
+            "Features": [
+                "Auto Flash, Auto Focus"
+            ]
+        },
+        "Front Camera": {
+            "Number of Cameras": [
+                "Single"
+            ],
+            "Resolution": [
+                "5 MP main camera"
+            ]
+        },
+        "Battery": {
+            "Capacity": [
+                "1750 mAh"
+            ],
+            "Type": [
+                "Li-Polymer"
+            ],
+            "Wireless Charging": [
+                "No"
+            ],
+            "Fast Charging": [
+                "No"
+            ]
+        },
+        "Security & Sensors": {
+            "Fingerprint Sensor": [
+                "No"
+            ],
+            "Sensors": [
+                "Light sensor, Proximity sensor, Accelerometer"
+            ]
+        },
+        "Connectivity & Audio": {
+            "Network": [
+                "2G, 3G, 4G (compatible with India)"
+            ],
+            "SIM 1 Bands": [
+                "4G Bands: TD-LTE 2300(band 40)",
+                "FD-LTE 1800(band 3) / 850(band 5)",
+                "3G Bands: UMTS 2100 / 900 MHz",
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz",
+                "4G Speed: 50 Mbit/s ↑ 150 Mbit/s ↓ (LTE category 4)",
+                "GPRS: Available",
+                "EDGE: Available"
+            ],
+            "SIM 2 Bands": [
+                "2G Bands: GSM 1800 / 1900 / 850 / 900 MHz"
+            ],
+            "SIM card slots": [
+                "Dual SIM"
+            ],
+            "SIM card type": [
+                "Micro + Micro"
+            ],
+            "Charging Port": [
+                "microUSB 2.0"
+            ],
+            "Wi-Fi": [
+                "Wi-Fi 802.11, b/g/n, Mobile Hotspot"
+            ],
+            "Bluetooth": [
+                "Bluetooth 4.0"
+            ],
+            "NFC": [
+                "No"
+            ],
+            "GPS": [
+                "Yes with A-GPS"
+            ],
+            "FM Radio": [
+                "Yes"
+            ],
+            "Loudspeaker": [
+                "Yes"
+            ],
+            "3.5mm headphone jack": [
+                "Yes"
+            ]
+        }
+    }
+}

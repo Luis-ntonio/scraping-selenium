@@ -19,7 +19,7 @@ full_model = {}
 urlss = []
 def main():
     i = 0
-    with open('./data/mobiles/urls/final_urls.json') as f:
+    with open('./data/mobiles/urls/urls_fullspecs_err.json') as f:
         urls = json.load(f)
     for url in urls:
         driver = webdriver.Remote(command_executor="http://localhost:4444", options=options)
@@ -45,12 +45,14 @@ def main():
                         content = sub.find_element(by=By.CLASS_NAME, value = "w-60")
                         content = content.text.split('\n')
                         full_spec[title.text][sub_title.text] = content
-                except:
+                except Exception as e:
+                    print(e)
                     pass
             full_model[url] = full_spec
             driver.close()
             driver.quit()
-        except:
+        except Exception as e:
+            print(e)
             urlss.append(url)
         i += 1
         print(i)
