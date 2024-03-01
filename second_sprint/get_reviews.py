@@ -17,23 +17,42 @@ import time
 import json
 import random
 
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+# Set the path to the Microsoft Edge executable
+edge_path = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+
+# Set the profile directory
+profile_directory = r"C:\Users\lagg1\AppData\Local\Microsoft\Edge\User Data\Profile 2"
+
 
 options = webdriver.ChromeOptions()
-options.add_argument("start-maximized")
-options.add_argument(f'user-agent={user_agent}')
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option('useAutomationExtension', False)
-driver = webdriver.Chrome(options=options)
+
+options.add_argument('user-data-dir=C:\\Users\\lagg1\\AppData\\Local\\Google\\Chrome\\User Data')
+options.add_argument('profile-directory=Default')
+
+
 
 review_dict = {}
 urlss = []
 
 def finding_b(paragraph, title_, flg_txt):
+    if "Alternatives" in title_ and 'FAQs' not in paragraph.text or 'Frequently Asked Questions' not in paragraph.text:
+        return False, title_, flg_txt
+    if title_ and 'FAQs' in title_ and 'Frequently Asked Questions' in title_:
+        return False, title_, True
     if len(paragraph.find_elements(by=By.XPATH, value="./b")) != 0:
         pos_title = paragraph.find_elements(by=By.XPATH, value="./b")[0].text
     elif len(paragraph.find_elements(by=By.XPATH, value="./span")) != 0:
+        iter = paragraph.find_elements(by=By.XPATH, value="./span")
+        first = True
+        for it in iter:
+            if it.get_attribute("lang") == "EN-IN" or (it.text == '' and first == True):
+                pos_title = title_
+                return False, title_, flg_txt
+            first = False
         pos_title = paragraph.find_elements(by=By.XPATH, value="./span")[0].text
+        if pos_title == '':
+            pos_title = paragraph.find_elements(by=By.XPATH, value="./span")[1].text
+        
     else:
         return False, title_, flg_txt
     loc = paragraph.text.find(pos_title)
@@ -55,17 +74,14 @@ def finding_b(paragraph, title_, flg_txt):
 def main():
     
     i = 0
-    with open('./data/mobiles/mainpage/urls.json') as f:
+    with open('./data/mobiles/urls/urls_err_reviews3.json') as f:
         urls = json.load(f)
-        urls = ["https://pricebaba.com/mobile/samsung-galaxy-a9", "https://pricebaba.com/mobile/vivo-v21-5g-256gb", "https://pricebaba.com/mobile/lenovo-k80", "https://pricebaba.com/mobile/asus-zenfone-2-laser-ze601kl", "https://pricebaba.com/mobile/letv-le-2-pro-4gb-64gb"]
+        #urls = ["https://pricebaba.com/mobile/lava-pixel-v2-3gb-ram"]
     for url in urls:
-        
-
-        print("Session ID:", driver.session_id)
         try:
-            time.sleep(10)
+            driver = webdriver.Chrome(options=options)
             driver.get(url)
-            time.sleep(10)
+            time.sleep(5)
             review_char = {
                 "text": {},
                 "Pros": [],
@@ -87,7 +103,7 @@ def main():
                         cond = True
                     if cond and ('FAQs' in par.text or 'Frequently Asked Questions' in par.text):
                         cond = False
-                    if len(par.find_elements(by=By.TAG_NAME, value="span")) != 0 or par.text == '' or cond:
+                    if len(par.find_elements(by=By.XPATH, value="./span")) != 0 or par.text == '' or cond:
                         spans += 1
                 # Use the "spans" variable in the subsequent code
                 print(spans, len(paragraphs))
@@ -101,44 +117,67 @@ def main():
                                 review_char["text"][title].append(paragraph)
 
                 elif len(paragraphs) == 1:
-                    titles = paragraphs[0].find_elements(by=By.TAG_NAME, value="span")
+                    titles = paragraphs[0].find_elements(by=By.XPATH, value="./span")
                     text = paragraphs[0].text
                     tmp = text.split('\n')
                     cond = False
                     if len(tmp[0]) > 40:
-                        title = ["Overview"]
-                        title.extend([title.text for title in titles])
-                        titles = title
+                        tit = ["Overview"]
+                        tit.extend([title.text for title in titles if title.text != '' and len(title.find_elements(by=By.CSS_SELECTOR, value="a")) == 0])
+                        titles = tit
                         cond = True
+                    else:
+                        titles = [title.text for title in titles if title.text != '' and len(title.find_elements(by=By.CSS_SELECTOR, value="a")) == 0]
                     if cond:
-                        for title in titles:
-                            text = text.replace(title, '')
                         text = text.split('\n')
+                        for title in range(len(titles)):
+                            b = False
+                            for txt in range(len(text)):
+                                if titles[title] == text[txt]:
+                                    b = True
+                                    text[txt] = ''
+                                    break
+                            if b == False and titles[title] != 'Overview':
+                                titles[title] = ''
+                
                         text = [x for x in text if x != '']
+                        titles = [x for x in titles if x != '']
+                        
                         for j in range(0, len(titles)):
                             if "Alternatives" in titles[j] :
                                 review_char["text"][titles[j]] = []
                                 for t in text[j:]:
                                     if ('FAQs' in t or 'Frequently Asked Questions' in t):
                                         break
+                                    if titles[j] not in review_char["text"]:
+                                        review_char["text"][titles[j]] = []
                                     review_char["text"][titles[j]].append(t)
                             else:
 
                                 if 'FAQs' in titles[j] or 'Frequently Asked Questions' in titles[j]:
                                     titles[j] = "FAQs"
-                                review_char["text"][titles[j]] = [text[j]]
+                                if titles[j] not in review_char["text"]:
+                                    review_char["text"][titles[j]] = []
+                                review_char["text"][titles[j]].append(text[j])
                     else:
                         for title in titles:
-                            text = text.replace(title.text, '')
+                            text = text.replace(title, '')
                         text = text.split('\n')
                         text = [x for x in text if x != '']
                         for j in range(0, len(titles)):
-                            if "Alternatives" in titles[j].text:
-                                review_char["text"][titles[j].text] = text[j:]
+                            if "Alternatives" in titles[j]:
+                                for t in text[j:]:
+                                    if ('FAQs' in t or 'Frequently Asked Questions' in t):
+                                        break
+                                    if titles[j] not in review_char["text"]:
+                                        review_char["text"][titles[j]] = []
+                                    review_char["text"][titles[j]].append(t)
                             else:
                                 if 'FAQs' in titles[j] or 'Frequently Asked Questions' in titles[j]:
                                     titles[j] = "FAQs"
-                                review_char["text"][titles[j].text] = [text[j]]
+                                if titles[j] not in review_char["text"]:
+                                    review_char["text"][titles[j]] = []
+                                review_char["text"][titles[j]].append(text[j])
                 
                 elif len(paragraphs) == spans:
 
@@ -152,20 +191,34 @@ def main():
 
                     for paragraph in paragraphs:
                         cant = paragraph.find_elements(by=By.XPATH, value="./span")
+                        if title_ == "FAQs":
+                            flg_par = True
+                            break
+                        cant_ = len(cant)
                         if len(cant) > 2:
-                            flg_allinone = True
+                            for can in cant:
+                                if can.get_attribute("lang") == "EN-IN":
+                                    flg_par = False
+                                    
+                                    flg_allinone = False
+                                    break
+                                elif can.text == '':
+                                    cant_ -= 1
+                                    if cant_ <= 2:
+                                        flg_par = True
+                                        flg_allinone = False
+                                        break
+                                else:
+                                    flg_par = False
+                                
+                                    flg_allinone = True
+                        elif len(cant) == 1:
+                            flg_allinone = False
                             flg_par = False
-                        if len(cant) == 1:
-                            flg_par = False
-                        elif iter == 0:
-                            iter = len(cant)
-                        elif iter != len(cant):
-                            flg_par = False
-                        
-                        flg_b, title_, flg_txt = finding_b(paragraph, title_, flg_txt)
-                        
-                        if flg_par != True:
 
+                        iter = 0
+                        flg_b, title_, flg_txt = finding_b(paragraph, title_, flg_txt)
+                        if flg_par != True:
                             if flg_allinone == True:
                                 titles = paragraph.find_elements(by=By.XPATH, value="./span")
                                 tmp = []
@@ -200,16 +253,19 @@ def main():
                                         review_char["text"][titles[0]] = text
                                     else:
                                         for j in range(0, len(titles)):
-                                            if "Alternatives" in titles[j]:
+                                            if titles[j] not in review_char["text"]:
                                                 review_char["text"][titles[j]] = []
+                                            if "Alternatives" in titles[j]:
                                                 for t in text[j:]:
                                                     if ('FAQs' in t or 'Frequently Asked Questions' in t):
                                                         break
                                                     review_char["text"][titles[j]].append(t)
+                                            elif 'FAQs' in titles[j] or 'Frequently Asked Questions' in titles[j]:
+                                                titles[j] = "FAQs"
+                                                review_char["text"][titles[j]] = text[j:]
                                             else:
-                                                if 'FAQs' in titles[j] or 'Frequently Asked Questions' in titles[j]:
-                                                    titles[j] = "FAQs"
-                                                review_char["text"][titles[j]] = [text[j]]
+                                                
+                                                review_char["text"][titles[j]].append(text[j])
                                 else:
                                     lst_titles = []
                                     for title in titles:
@@ -220,14 +276,23 @@ def main():
                                     text = text.split('\n')
                                     text = [x for x in text if x != '']
                                     if len(titles) == 1:
-                                        review_char["text"][titles[0]] = text
+                                        if titles[0] not in review_char["text"]:
+                                            review_char["text"][titles[0]] = []
+                                        review_char["text"][titles[0]].append(text)
                                     for j in range(0, len(titles)):
+                                        if titles[j] not in review_char["text"]:
+                                            review_char["text"][titles[j]] = []
                                         if "Alternatives" in titles[j]:
+                                            for t in text[j:]:
+                                                if ('FAQs' in t or 'Frequently Asked Questions' in t):
+                                                    break
+                                                review_char["text"][titles[j]].append(t)
+                                        elif 'FAQs' in titles[j] or 'Frequently Asked Questions' in titles[j]:
+                                            titles[j] = "FAQs"
                                             review_char["text"][titles[j]] = text[j:]
                                         else:
-                                            if 'FAQs' in titles[j] or 'Frequently Asked Questions' in titles[j]:
-                                                titles[j] = "FAQs"
-                                            review_char["text"][titles[j]] = [text[j]]
+                                            
+                                            review_char["text"][titles[j]].append(text[j])
                                     
                                 flg_allinone = False
                                 title = 0
@@ -253,7 +318,8 @@ def main():
                                 title_ = "FAQs"
                                 text = paragraph.text
                                 text = text.replace(title_, '')
-                                review_char["text"][title_] = []
+                                if title_ not in review_char["text"]:
+                                    review_char["text"][title_] = []
                                 if text != '':
                                     review_char["text"][title_] = text.split('\n')[1:]
                                 continue
@@ -275,7 +341,7 @@ def main():
                                     title_ = "FAQs"
                                     flg = False
                                 title = 1
-                                title_ = paragraph.find_elements(by=By.TAG_NAME, value="span")
+                                title_ = paragraph.find_elements(by=By.XPATH, value="./span")
                                 if len(title_) == 1:
                                     title_ = title_[0].text
                                 else:
@@ -312,15 +378,38 @@ def main():
                                         review_char["text"][title_].append(t)
                                 
                         else:
+                            text = paragraph.text
                             block = paragraph.find_elements(by=By.XPATH, value="./span")
-                            if block[0].text == "":
+                            if len(block) == 0:
                                 continue
-                            title_ = block[0].text
-                            text = block[1:]
+                            if block[0].text == text and len(block) == 1:
+                                title_ = block[0].text
+                                if title_ not in review_char["text"]:
+                                    review_char["text"][title_] = []
+                                    continue
+                            if block[0].text == "" and len(block) == 1:
+                                continue
+                            elif block[0].text == "" and len(block) > 1:
+                                title_ = block[1].text
+                                if title_ == text:
+                                    title_ = block[0].text
+                                    if title_ not in review_char["text"]:
+                                        review_char["text"][title_] = []
+                                        continue
+                                text = block[2:]
+                            else:
+                                if text == text.split('\n')[0]:
+                                    title_ = title_
+                                    text = text.split('\n')
+                                else:
+                                    title_ = block[0].text
+                                    text = block[1:]
+                            print(title_)
                             if title_ not in review_char["text"]:
                                 review_char["text"][title_] = []
                             for t in text:
                                 review_char["text"][title_].append(t.text)
+                            
 
                 else:   
                     flg_iter = True
@@ -337,7 +426,8 @@ def main():
                                 text = paragraph.text 
                                 text = text.replace(title, '')
                                 if title == 'FAQs' and flg_txt == False:
-                                    review_char["text"][title] = []
+                                    if title not in review_char["text"]:
+                                        review_char["text"][title] = []
                                     flg_txt = True
                                 elif text != '':
                                     text = text.split('\n')
@@ -347,7 +437,8 @@ def main():
                                             review_char["text"][title].append(t)
                                     flg_txt = False
                                 else:
-                                    review_char["text"][title] = []
+                                    if title not in review_char["text"]:
+                                        review_char["text"][title] = []
                                     flg_txt = True
                                 flg_b = False
                                 continue
@@ -363,9 +454,14 @@ def main():
                                 text = paragraph.text
                                 text = text.replace(title, '')
                                 if text != '':
-                                    review_char["text"][title] = text.split('\n')[1:]
+                                    txt = text.split('\n')[1:]
+                                    if title not in review_char["text"]:
+                                        review_char["text"][title] = []
+                                    for t in txt:
+                                        review_char["text"][title].append(t)
                                 else:
-                                    review_char["text"][title] = []
+                                    if title not in review_char["text"]:
+                                        review_char["text"][title] = []
                                     flg_iter = False
 
                             elif iter == 0 and title == '' and len(paragraph.find_elements(by=By.TAG_NAME, value="u")) == 0 and flg_iter and 'FAQs' not in title and 'Frequently Asked Questions' not in title: #if the paragraph has no u tag and is first paragraph
@@ -383,11 +479,13 @@ def main():
                                 iter += 1
                             elif 'FAQs' in paragraph.text or 'Frequently Asked Questions' in paragraph.text:
                                 title = "FAQs"
-                                review_char["text"][title] = []
+                                if title not in review_char["text"]:
+                                    review_char["text"][title] = []
                                 flg_iter = False
                             elif len(paragraph.find_elements(by=By.TAG_NAME, value="u")) != 0 and 'FAQs' not in title and 'Frequently Asked Questions' not in title: #if the paragraph has a u tag
                                 title = paragraph.find_element(by=By.TAG_NAME, value="u").text
-                                review_char["text"][title] = []
+                                if title not in review_char["text"]:
+                                    review_char["text"][title] = []
                                 flg_iter = False
 
                             elif len(paragraph.find_elements(by=By.TAG_NAME, value="u")) == 0 and flg_iter and 'FAQs' not in title and 'Frequently Asked Questions' not in title: #if the paragraph has no u tag
@@ -423,8 +521,8 @@ def main():
 
         i += 1
         print(i)
-        break
-    with open('./data/mobiles/mainpage/reviews4.json', 'w', encoding='UTF-8') as f:
+        driver.quit()
+    with open('./data/mobiles/mainpage/reviews5.json', 'w', encoding='UTF-8') as f:
         json.dump(review_dict, f, indent=4, ensure_ascii=False)
     with open('./data/mobiles/urls/urls_err_reviews3.json', 'w', encoding='UTF-8') as f:
         json.dump(urlss, f, indent=4, ensure_ascii=False)
