@@ -19,7 +19,7 @@ key_model = {}
 urlss = []
 def main():
     i = 0
-    with open('./data/mobiles/urls/urls_keys_err.json') as f:
+    with open('./data/mobiles/urls/final_urls.json') as f:
         urls = json.load(f)
     for url in urls:
         driver = webdriver.Remote(command_executor="http://localhost:4444", options=options)

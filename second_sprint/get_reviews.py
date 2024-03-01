@@ -28,7 +28,7 @@ options = webdriver.ChromeOptions()
 
 options.add_argument('user-data-dir=C:\\Users\\lagg1\\AppData\\Local\\Google\\Chrome\\User Data')
 options.add_argument('profile-directory=Default')
-
+options.add_argument('--headless')
 
 
 review_dict = {}
@@ -74,7 +74,7 @@ def finding_b(paragraph, title_, flg_txt):
 def main():
     
     i = 0
-    with open('./data/mobiles/mainpage/urls.json') as f:
+    with open('./data/mobiles/urls/final_urls.json') as f:
         urls = json.load(f)
         #urls = ["https://pricebaba.com/mobile/lava-pixel-v2-3gb-ram"]
     for url in urls:
