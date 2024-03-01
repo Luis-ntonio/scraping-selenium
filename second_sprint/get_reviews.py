@@ -74,7 +74,7 @@ def finding_b(paragraph, title_, flg_txt):
 def main():
     
     i = 0
-    with open('./data/mobiles/urls/urls_err_reviews3.json') as f:
+    with open('./data/mobiles/mainpage/urls.json') as f:
         urls = json.load(f)
         #urls = ["https://pricebaba.com/mobile/lava-pixel-v2-3gb-ram"]
     for url in urls:
@@ -208,11 +208,14 @@ def main():
                                         flg_par = True
                                         flg_allinone = False
                                         break
+                            
                                 else:
                                     flg_par = False
                                 
                                     flg_allinone = True
                         elif len(cant) == 1:
+                            if cant[0].text == '':
+                                continue
                             flg_allinone = False
                             flg_par = False
 
@@ -268,6 +271,12 @@ def main():
                                                 review_char["text"][titles[j]].append(text[j])
                                 else:
                                     lst_titles = []
+                                    tmp = text.split('\n')
+                                    for t in tmp:
+                                        for tit in range(len(titles)):
+                                            if titles[tit] in t and len(titles[tit]) != len(t):
+                                                titles[tit] = ''
+                                    titles = [t for t in titles if t != '']
                                     for title in titles:
                                         if len(title) < 40:
                                             lst_titles.append(title)
@@ -275,10 +284,17 @@ def main():
                                     titles = lst_titles
                                     text = text.split('\n')
                                     text = [x for x in text if x != '']
+                                    for t in text:
+                                        for tit in range(len(titles)):
+                                            if titles[tit] in t:
+                                                titles[tit] = ''
+                                    titles = [t for t in titles if t != '']
+                                    print(titles, text)
                                     if len(titles) == 1:
                                         if titles[0] not in review_char["text"]:
                                             review_char["text"][titles[0]] = []
-                                        review_char["text"][titles[0]].append(text)
+                                        review_char["text"][titles[0]].append(text[:])
+                                        continue
                                     for j in range(0, len(titles)):
                                         if titles[j] not in review_char["text"]:
                                             review_char["text"][titles[j]] = []
@@ -404,7 +420,6 @@ def main():
                                 else:
                                     title_ = block[0].text
                                     text = block[1:]
-                            print(title_)
                             if title_ not in review_char["text"]:
                                 review_char["text"][title_] = []
                             for t in text:
